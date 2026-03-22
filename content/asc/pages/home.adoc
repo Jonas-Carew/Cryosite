@@ -1,0 +1,29 @@
+{
+	:title		"Home"
+	:page-index	0
+	:home?		true
+	:navbar?	true
+}
+
+== Brief Introduction ==
+
+I am an undergraduate student at link:https://oregonstate.edu[Oregon State Univeristy] completing a triple major in mathematics, computer science, and electrical and computer engineering. I'm primarily interested in abstract algebra, set theory, high performance computing, computer architecture, and other similar fields. I hope to pursue a PhD in mathematics after I graduate in the spring of 2027.
+
+I enjoy pushing myself to learn new things constantly, and as such I'm usually reading a textbook, working on a project, or both. I'm also a large proponent of free and open source software, and you can find many of the tools that I use in an upcoming blog post.
+
+== This Website ==
+
+This website is here to serve as a hub for all of my info, and as a project to try new things. It contains links to many of my other accounts, but also serves as both a source for both professional and personal information about me.
+
+This website uses the link:https://cryogenweb.org/index.html[Cryogen static site generator], which is written in Clojure, to do much of the templating and blog structures. Additionally all of the pages and blogposts are written in AsciiDoc, an alternative to MarkDown, which I did as a challenge to learn a new way to learn a new way of simple typesetting.
+
+== Other Pages ==
+
+You can find all of my professional information such as my resume and LinkedIn in the link:pages-output/professional[professional] tab.
+
+You can find more information about me such as my hobbies, interests, and some of my personal work in the link:pages-output/personal[personal] tab.
+
+Finally, you can find my personal blog posts and a link to my RSS Feed in the link:pages-output/archive[blog] tab.
+
+
+

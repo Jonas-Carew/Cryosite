@@ -1,0 +1,15 @@
+{
+	:title		"Personal"
+	:page-index	2
+	:home?		true
+	:navbar?	true
+}
+
+== Brief Introduction ==
+
+== About Me ==
+
+== This Website ==
+
+
+

@@ -1,0 +1,211 @@
+@font-face {
+  font-family: Solway;
+  src: url("../fonts/Solway/Solway-Regular.ttf") format("truetype");
+}
+@font-face {
+  font-family: ZillaSlab;
+  src: url("../fonts/Zilla/ZillaSlab-Regular.ttf") format("truetype");
+}
+h1, h2, h3, h4, h5, h6 {
+  font-family: Solway, serif;
+}
+
+body {
+  color: rgb(51, 51, 51);
+  background-color: rgb(242, 242, 242);
+  font-family: ZillaSlab, serif;
+  font-size: 20px;
+}
+
+.container {
+  max-width: 1000px;
+}
+
+.right {
+  float: right;
+  text-align: right;
+}
+
+.navbar {
+  position: sticky;
+  top: 0;
+  z-index: 255;
+  border-radius: 0;
+  box-shadow: 0 6px 12px rgba(34, 34, 34, 0.5);
+}
+
+.navbar-default {
+  background-color: rgb(85, 124, 153);
+  border: none;
+}
+
+.navbar-default .navbar-brand {
+  color: rgb(255, 255, 255);
+  font-family: Solway, serif;
+}
+
+.navbar-default .navbar-brand:hover {
+  color: rgb(255, 255, 255);
+}
+
+.navbar-default .navbar-nav li a,
+.navbar-default .navbar-nav .open .dropdown-menu > li > a {
+  color: rgb(255, 255, 255);
+  margin: 6px 3px;
+  padding: 10px;
+}
+
+.navbar-default .navbar-nav li a:hover {
+  color: rgb(255, 0, 0);
+  background-color: rgb(0, 255, 0);
+}
+
+.navbar-default .navbar-nav .active a {
+  color: rgb(255, 255, 255);
+  background-color: rgb(71, 104, 124);
+}
+
+.navbar-default .navbar-toggle:hover {
+  background-color: rgb(78, 114, 136);
+}
+
+.navbar-default .navbar-toggle .icon-bar {
+  background-color: rgb(255, 255, 255);
+}
+
+.dropdown-menu {
+  background-color: rgb(85, 124, 153);
+}
+
+.dropdown-header {
+  color: rgb(255, 255, 255);
+  font-size: 15px;
+  font-weight: 600;
+  padding-left: 10px;
+}
+
+.dropdown-menu li a {
+  color: rgb(255, 255, 255);
+}
+
+.navbar-default .navbar-nav .open a:hover,
+.navbar-default .navbar-nav .open a:focus,
+.navbar-default .navbar-nav > li > a:hover,
+.navbar-default .navbar-nav > li > a:focus {
+  background-color: rgb(78, 114, 136);
+  color: rgb(255, 255, 255);
+}
+
+#content {
+  background-color: rgb(255, 255, 255);
+  border-radius: 3px;
+  box-shadow: 0 6px 12px rgba(34, 34, 34, 0.5);
+}
+
+#content img {
+  max-width: 100%;
+  height: auto;
+}
+
+footer {
+  font-size: 14px;
+  text-align: center;
+  padding-top: 75px;
+  padding-bottom: 30px;
+}
+
+blockquote footer {
+  text-align: left;
+  padding-top: 0px;
+  padding-bottom: 0px;
+}
+
+#post-tags {
+  margin-top: 30px;
+}
+
+#prev-next {
+  padding: 15px 0;
+}
+
+.post-header {
+  margin-bottom: 20px;
+}
+
+.post-header h2 {
+  font-size: 32px;
+}
+
+#post-meta {
+  font-size: 14px;
+  color: rgba(34, 34, 34, 0.5);
+}
+
+#page-header {
+  border-bottom: 3px solid rgb(85, 124, 153);
+  margin-bottom: 20px;
+}
+
+#page-header h2 {
+  font-size: 32px;
+}
+
+pre {
+  overflow-x: auto;
+}
+
+pre code {
+  display: block;
+  padding: 0.5em;
+  overflow-wrap: normal;
+  white-space: pre;
+}
+
+code {
+  color: rgb(85, 124, 153);
+}
+
+pre, code, .hljs {
+  background-color: rgb(238, 238, 238);
+}
+
+@media (min-width: 768px) {
+  .navbar {
+    min-height: 70px;
+  }
+  .dropdown-menu > li > a {
+    padding: 3px 0;
+  }
+  .navbar-nav > li > a {
+    padding: 30px 0;
+  }
+  .navbar-default .navbar-brand {
+    font-size: 36px;
+    margin: 10px 0;
+  }
+  .navbar-collapse {
+    margin-top: 18px;
+  }
+  #content {
+    margin-top: 30px;
+    padding: 30px 45px;
+  }
+}
+@media (max-width: 767px) {
+  .navbar-default .navbar-brand {
+    font-size: 36px;
+    margin: 10px 0;
+  }
+  .navbar-toggle {
+    margin-top: 18px;
+  }
+  #content {
+    padding: 15px;
+  }
+  #post-meta .right {
+    float: left;
+    text-align: left;
+  }
+}
+
+/*# sourceMappingURL=screen.css.map */
