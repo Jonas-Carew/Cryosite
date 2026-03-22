@@ -41,6 +41,7 @@
     {% if page.toc %}{{page.toc|safe}}{% endif %}
     {{page.content|safe}}
 
+	<!--
     <div id="prev-next">
         {% if page.prev %}
         <a href="{{page.prev.uri}}">&laquo; {{page.prev.title}}</a>
@@ -52,5 +53,6 @@
         <a href="{{page.next.uri}}">{{page.next.title}} &raquo;</a>
         {% endif %}
     </div>
+	-->
 </div>
 {% endblock %}
