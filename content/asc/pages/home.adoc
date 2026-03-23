@@ -1,8 +1,8 @@
 {
 	:title		"Home"
 	:page-index	0
-	:home?		true
-	:navbar?	true
+	:home?		false
+	:navbar?	false
 }
 
 == Brief Introduction ==
