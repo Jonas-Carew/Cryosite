@@ -19,11 +19,5 @@ This website was made with link:https://cryogenweb.org/index.html[Cryogen], a st
 
 == Other Pages ==
 
-You can find all of my professional information such as my resume and LinkedIn in the link:pages-output/professional[professional] tab.
-
-You can find more information about me such as my hobbies, interests, and some of my personal work in the link:pages-output/personal[personal] tab.
-
-Finally, you can find my personal blog posts and a link to my RSS Feed in the link:pages-output/archive[blog] tab.
-
 
 

@@ -1,7 +1,7 @@
 {:site-title                   "Jonas Carew"
  :author                       "Jonas Carew"
  :description                  "The personal website of Jonas Carew."
- :site-url                     "http://tempurl.com/"
+ :site-url                     "http://jonascarew.com/"
  :post-root                    "posts"
  :page-root                    "pages"
  :post-root-uri                "posts-output"

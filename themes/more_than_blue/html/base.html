@@ -86,20 +86,31 @@
     </div><!--/.container-fluid -->
 </nav>
 
-
 <div class="container">
     <div class="row">
         <div class="col-lg-12">
-            <div id="content">
+            <div class="content">
                 {% block content %}
                 {% endblock %}
             </div>
         </div>
     </div>
+
+	<!--
+	<div class="spacer"></div>
+    <div class="content webring">
+        <a class="ring-text ring-left" href="{{page.prev.uri}}">&laquo; Previous Page</a>
+		<span class="ring-text ring-center">Navigate my webring!</span>
+        <a class="ring-text ring-right" href="{{page.next.uri}}">{{page.next.title}}Next Page &raquo;</a>
+    </div>
+	-->
+
     <footer>Copyright &copy; {{today|date:yyyy}} {{author}}
         <p style="text-align: center;">Powered by <a href="http://cryogenweb.org">Cryogen</a></p>
 	</footer>
+
 </div>
+
 <script src="//code.jquery.com/jquery-1.11.0.min.js"></script>
 <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.0/js/bootstrap.min.js"></script>
 {% script "js/highlight.pack.js" %}
