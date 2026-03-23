@@ -1,15 +1,16 @@
 {
 	:title		"Personal"
-	:page-index	2
-	:home?		true
+	:page-index	0
 	:navbar?	true
 }
 
-== Brief Introduction ==
-
 == About Me ==
 
-== This Website ==
+Learning is a big part of my life and my identity, and I like to think that many of my hobbies and interests reflect that. I'm also a big believer in Free and Open Software and I've included a big list a lot of the software that I've used and seen link:../software[here].
+
+== Hobbies ==
+
+I'm always interested in learning new things, and I'm usually tinkering with or tweaking some part of my laptop's environment. I'm also very passionate about abstract algebra, and I'm usually reading a textbook in the subject. You can find my full reading list link:../reading[here]. Apart from these, I skateboard, play videogames, read books, and do whatever else might come to my mind.
 
 
 

@@ -1,0 +1,75 @@
+{
+	:title		"Reading"
+	:page-index	-1
+	:navbar?	false
+}
+
+== My Reading List ==
+
+This reading list is primarily focused on books in mathematics on occasionally other academic works. It's ordered alphabetically (not automatically though, message me if there is a mistake) with no regard for quality. It may expand to a full list of fictional works or poetry at some point in the future. I also have not read everything in this list to completion, or even started reading. I plan to include expandable descriptions for every book on this list at some point in the future. If you are curious about any of these books and they aren't available at a local public library, please contact me, I am happy to help find you an affordable source.
+
+> Culture shouldn't exist only for those who can afford it.
+>
+> __&#8212; Arsi "Hakita" Patala__
+
+=== Abstract Algebra ===
+
+* A Course in Universal Algebra by Burris and Sankappanavar
+* A Term of Commutative Algebra by Altman and Kleiman
+* Abelian Groups by Fuchs
+* Abstract Algebra by Dummit and Foote
+* Abstract Algebra by Judson
+* Algebra by Hungerford
+* Algebra: An Approach via Module Thoery by Adkins and Weintraub
+* Algebra: Chapter 0 by Paolo Aluffi
+* Complexity of Infinite Domain Constraint Satisfaction by Bodirsky
+* Elements of Set Theory by Enderton
+* Foundations of Module and Ring Theory by Wisbauer
+* Intro to Higher Order Categorical Logic by Lambek and Scott
+* Introduction to Modern Algebra by Joyce
+* Lie Groups, Lie Algebras, and Respresentations by Hall
+* Model Theory: An Introduction by Marker
+* Notes on Set Theory by Moschovakis
+* Topoi, the Categorical Analysis of Logic by Goldblatt
+* Toposes, Triples, and Theories by Barr and Wells
+
+=== Algebraic Geometry ===
+
+* Algebraic Geometry by Hartshorne
+* Introduction to Algebraic Geometry by Hassett
+* Beginning in Algebraic Geometry by Clader and Ross
+
+=== Analysis ===
+
+* Measure, Integration, and Real Analysis by Axler
+* Real Analysis by Carothers
+* Real Analysis by Stein and Shakarchi
+* Set Theory and Metric Spaces by Kaplansky
+* Understanding Analysis by Abbott
+* Vector Calculus, Linear Algebra, and Differential Forms by Hubbard and Hubbard
+
+=== Linear Algebra ===
+
+* Linear Algebra by Friedberg, Insel, and Spence
+* Linear Algebra Done Right by Axler
+* Linear Algebra Done Wrong by Treil
+
+=== Topology
+
+* Algebraic Topology by Hatcher
+* General Topology by Willard
+* Topology by Munkres
+
+=== Theory of Computation and Programming Languages ===
+
+* Formal Languages and Automata by Linz Rodger
+* Programming Language Fundamentals by Martin Erwig
+
+=== Computer Architecture ===
+
+* Computer Architecture: A Quantitative Approach by Hennesy and Patterson
+* Computer Organization and Design by Hennesy and Patterson
+* Digital Design and Computer Architecture by Harris
+
+
+

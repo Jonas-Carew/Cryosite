@@ -1,0 +1,12 @@
+{
+	:title		"Reading Group"
+	:page-index	1
+	:navbar?	true
+}
+
+== About the Group ==
+
+I'm currently in the process of organizing a reading group centering around abstract algebra. We are currently taking suggestions for texts to read, and a poll will be put out soon to see what people's interests are. If you are interested, reach out to me via elink:carewj@oregonstate.edu[email]!
+
+
+

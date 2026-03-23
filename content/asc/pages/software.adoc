@@ -1,0 +1,44 @@
+{
+	:title		"Personal"
+	:page-index	-1
+	:navbar?	false
+}
+
+== How I Setup ==
+
+My laptop is running link:https://bedrocklinux.org/[Bedrock Linux], a meta-ditribution of Linux. It is currently hijacking link:https://fedoraproject.org/[Fedora], but I also have strata for link:https://artixlinux.org/[Artix] and link:https://www.gentoo.org/[Gentoo]. I generally use link:https://wiki.gentoo.org/wiki/Project:OpenRC[OpenRC] as my init system which starts Artix as my primary strata, but I also have link:https://systemd.io/[systemd] which starts up Fedora with a link:https://kde.org/[KDE] desktop. Bedrock allows me to use Pacman, DNF, and Portage using the wonderful pmm, but I do also occasionally get software from the mighty link:https://aur.archlinux.org/[AUR], and to do so I use link:https://github.com/Morganamilo/paru[Paru]. The rest of my software is in the list below.
+
+Before starting the big list, note that you can find all of my dot files in link:https://github.com/Jonas-Carew/Dots[this repo] on my github.
+
+* I use link:https://isaacfreund.com/software/river/[River] as my main Wayland compositor and I do not (yet) use a separate window manager. River uses tags to manage several workspaces and allows for a very high level of very easy customization. I also highly endore the KDE as an out-of-the-box yet customizable traditional Linux desktop enviroment.
+
+* For a lightning round of my desktop utilites:
+** I use link:https://github.com/philj56/tofi[Tofi] to as my app launcher. Tofi is fast and works well with waybar, I don't have much more to say on it.
+** I use link:https://github.com/LGFae/swww?tab=readme-ov-file[swww] to manage my wallpaper, but upon writing this I've learned about (and will soon switch to) link:https://codeberg.org/LGFae/awww[awww], its non-deprecated successor.
+** I use link:https://github.com/Alexays/Waybar[Waybar] with an almost-deault configuration to display all my statuses. I plan to update the look eventually, but have not done so yet.
+** I use link:https://github.com/swaywm/swayidle[swayidle] and link:https://github.com/swaywm/swaylock[swaylock] to manage autolocking on my laptop.
+
+* For browsing, I primarily use link:https://www.waterfox.com/[Waterfox], a fork of firefox. Waterfox offers increased privacy compared to Firefox, while not breaking as much functionality as browsers like LibreWolf. I also use link:https://brave.com/[Brave] on my phone for certain tasks Waterfox is less suited for, but I prefer to stay out of the Chromium ecosystem.
+
+* link:https://hexchat.github.io/[HexChat] is my IRC client, and it works very well for all of my uses.
+
+* I use link:https://wezterm.org/[WezTerm] as my main terminal emulator, but I am also trying to create a configuration for link:https://ghostty.org/[Ghostty] so I can give it an honest shot. In my experience, WezTerm has been very reliable and very fast. Built-in multiplexing, live config reloading, and the cross-platform integration are all main drawing points. I still use Windows 10 on my desktop, so until Ghostty comes to Windows it will be hard to make a full switch. All of my terminal related tools and software are in a sublist here.
+
+** For consistency with other servers and while running Ghostty, I have used link:https://github.com/tmux/tmux/wiki[tmux] and enjoy it greatly. At one point I tried to learn Zellij but was not won over.
+
+** I use link:https://www.gnu.org/software/bash/[Bash] to run most of my scripts, but I primarily use link:https://fishshell.com/[fish] for my day-to-day interactions. fish has many great features that I would recommend checking out for yourself, and scripting is dead easy.
+
+** My prompt is powered by link:https://starship.rs/[starship], which has been reliably customizable for years now and I would recommend literally everyone use.
+
+** I have two mandatory replacements to existing tools. First,  link:https://github.com/eza-community/eza[eza] is an alternative to the standard `ls` that provides better details. Second, link:https://github.com/ajeetdsouza/zoxide[zoxide] is a an alternative to the standard `cd` that  uses fuzzy finding to go where you want.
+
+** I love link:https://github.com/info-mono/diyfetch[DIYfetch], an alternative to Neofetch or Fastfetch that is nothing more than a suited up Gum script. Speaking of Gum, I would highly recommend checking out all of the software made by link:https://charm.land/[Charm], after all, Charm loves open source!
+
+** I primarily use link:https://neovim.io/[NeoVim] as my text editor, and I won't re-sing its praises here. I am partial to a very minimal configuration, using only the built-in package manager and LSP client. The only major plugins I use are link:https://github.com/windwp/windline.nvim[Windline], link:https://github.com/lewis6991/gitsigns.nvim[gitsigns], link:https://github.com/nvim-neo-tree/neo-tree.nvim[Neo-tree], and link:https://github.com/nvim-telescope/telescope.nvim[Telescope].
+
+** In addition to NeoVim, I have used link:https://kakoune.org/[Kakoune], a much newer alternative to NeoVim that I think is worth trying out. I don't currently use this because my LSP client is broken and I have been too lazy to fix it, but I view it as _at least_ as good as NeoVim.
+
+** I use link:https://gitlab.freedesktop.org/emersion/grim[grim], link:https://github.com/emersion/slurp[slurp], and link:https://github.com/jtheoof/swappy[swappy] to power a custom screenshot script that you can find in my dot files.
+
+
+

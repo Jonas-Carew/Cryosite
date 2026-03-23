@@ -1,15 +1,28 @@
 {
 	:title		"Professional"
 	:page-index	0
-	:home?		true
 	:navbar?	true
 }
 
-== Brief Introduction ==
+== My Career ==
 
-Hello
+I am currently spending four years at Oregon State University to complete three majors: mathematics, computer science, and electrical and computer engineering. I plan to to continue studying mathematics at a PhD program after I complete my undergrad in the spring of 2027. I hope to one day be a professor of mathematics, doing both research and teaching.
 
-== This Website ==
+== Past Experience ==
+
+In high school I worked at my school's tech center, primarily fixing old computers and imaging new ones. Over my summers I worked several food service jobs, which gave me perspective that I still consider important. Since being in university, I held several different teaching jobs, first being an learning assistant for a vector calculus class, helping students in class in an active learning environment, and now being a learning assistant for electronics courses, helping students in labs analyze, build, and test circuits. At the same time, I have been a resident assistant since fall 2024, where I help new students living in residence halls get acquianted with our campus and find a sense of community.
+
+== Resources ==
+
+A PDF copy of my resume is linked below, which has much of the information above in more detail, along with several of my projects and my coursework. The best way to get in contact with me is usually by email, but my LinkedIn and GitHub are also linked below.
+
+*Resume:* link:../../files/Resume.pdf[Get Resume]
+
+*Email:* carewj@oregonstate.edu
+
+*LinkedIn:* link:https://www.linkedin.com/in/jonas-carew[linkedin.com/in/jonas-carew]
+
+*GitHub:* link:https://github.com/Jonas-Carew[github.com/Jonas-Carew]
 
 
 

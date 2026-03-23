@@ -15,7 +15,7 @@ I enjoy pushing myself to learn new things constantly, and as such I'm usually r
 
 This website is here to serve as a hub for all of my info, and as a project to try new things. It contains links to many of my other accounts, but also serves as both a source for both professional and personal information about me.
 
-This website uses the link:https://cryogenweb.org/index.html[Cryogen static site generator], which is written in Clojure, to do much of the templating and blog structures. Additionally all of the pages and blogposts are written in AsciiDoc, an alternative to MarkDown, which I did as a challenge to learn a new way to learn a new way of simple typesetting.
+This website was made with link:https://cryogenweb.org/index.html[Cryogen], a static site engine written in Clojure, which helps with much of the templating and blog structures. Additionally all of the pages and blogposts are written in AsciiDoc, an alternative to MarkDown, which I did as a challenge to learn a new way to learn a new way of simple typesetting.
 
 == Other Pages ==
 
