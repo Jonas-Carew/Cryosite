@@ -17,7 +17,5 @@ This website is here to serve as a hub for all of my info, and as a project to t
 
 This website was made with link:https://cryogenweb.org/index.html[Cryogen], a static site engine written in Clojure, which helps with much of the templating and blog structures. Additionally all of the pages and blogposts are written in AsciiDoc, an alternative to MarkDown, which I did as a challenge to learn a new way to learn a new way of simple typesetting.
 
-== Other Pages ==
-
 
 
