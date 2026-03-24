@@ -2,6 +2,7 @@
 	:title		"Home"
 	:page-index	0
 	:home?		true
+	:layout		:homepage
 	:navbar?	false
 }
 

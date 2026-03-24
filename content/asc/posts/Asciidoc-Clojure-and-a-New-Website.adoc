@@ -1,13 +1,13 @@
 {
 	:title	"Asciidoc, Clojure, and a New Website"
-	:date	"2026-03-19"
+	:date	"2026-03-24"
 	:tags	["Asciidoc" "Clojure" "Cryogen" "Webdev"]
 	:toc	false
 }
 
-== Post Title ==
+Making a new website is something I've always dreaded. All the little details of web development have always made me grind my teeth and I always end up abandoning the project. So this time I did something different: no Node, minimal JavaScript, and learn as many new tools as I can. Well, while looking through some options I stumbled upon link:https://cryogenweb.org/index.html[Cryogen], a tool that generates static sites using templates written in pure HTML and CSS. Additionally, Cryogen is written in Clojure, a language that I've absolutely never thought about before. On top of this, it offered me another option: instead of writing your pages in Markdown, I could use AsciiDoc, yet another brand new tool! Safe to say, I was excited to learn.
 
-This is an example asciidoc post.
+== The First Steps ==
 
-You can use a manually placed table of contents by setting `:toc false` in the front matter, but use `:toc: macro` at the top of the post, and `toc::[]` where the table of contents is supposed to be, like here:
+Getting started
 

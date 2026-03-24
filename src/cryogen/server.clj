@@ -66,7 +66,10 @@
                                     :preview (html :preview)
                                     :dom (vec (html :dom))
                                     ))) posts)
-           new-params (assoc tags-with-count :allposts (archive-order allposts))]
+           ordered (archive-order allposts)
+           new-params (assoc tags-with-count
+                             :allposts ordered
+                             :firstpost (first ((first ordered) :posts)))]
          new-params))})
 
 (defn init [& [fast?]]
