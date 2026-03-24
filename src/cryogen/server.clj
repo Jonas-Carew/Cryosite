@@ -26,9 +26,11 @@
         ((fn [{dom :content-dom :as article}]
           (-> article
               (dissoc :content-dom)
-              (assoc 
+              (assoc
                 :full (util/enlive->html-text dom)
-                :content (util/enlive->html-text (take 1 dom))))))
+                :content (util/enlive->html-text (take (params :blocks-per-preview) dom))
+                :dom dom))))
+              ; NOT WORKING FOR ASCIIDOC >:(
         postprocess-article
         ((fn [article]
           (-> article
@@ -59,8 +61,11 @@
                                             :count (tag-count (:name t)))) %))
            allposts (map (fn [post]
                            (let [html (htmlize params post)]
-                             (assoc post :full (html :content) :preview (html :preview))))
-                         posts)
+                             (assoc post 
+                                    :full (html :content) 
+                                    :preview (html :preview)
+                                    :dom (vec (html :dom))
+                                    ))) posts)
            new-params (assoc tags-with-count :allposts (archive-order allposts))]
          new-params))})
 

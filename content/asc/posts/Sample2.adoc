@@ -1,18 +1,21 @@
 {
-	:title	"Asciidoc and Learning New Things"
-	:date	"2026-03-23"
+	:title	"Sample2"
+	:date	"2026-03-24"
 	:tags	["cryogen" "asciidoc"]
 	:toc	false
 }
 
 :toc: macro
 
-== Example Asciidoc Post ==
+== Title ==
+
 This is an example asciidoc post.
 
 You can use a manually placed table of contents by setting `:toc false` in the front matter, but use `:toc: macro` at the top of the post, and `toc::[]` where the table of contents is supposed to be, like here:
 
 toc::[]
+
+== Title 2 ==
 
 === Section 1 ===
 
@@ -48,4 +51,10 @@ What about this \(\cos(3\pi)\)?
 
 Or inline
 \[ \sin(2\pi) \ne e^{(i \pi)} \]
+
+== Big Section ==
+
+Hello
+
+== Another one ==
 

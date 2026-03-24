@@ -13,6 +13,7 @@
         <li>
             {{post.date|date:"MMM dd"}} - <a href="{{post.uri}}">{{post.title}}</a>
 			<details>
+				{{post.dom}}
 				{{post.preview|safe}}
 			</details>
         </li>
