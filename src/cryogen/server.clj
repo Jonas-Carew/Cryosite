@@ -17,23 +17,24 @@
 (def resolved-config (delay (resolve-config)))
 
 (defn htmlize
-  [{:keys [postprocess-article-html-fn] :as params} article]
-  (letfn [(postprocess-article [post]
+  [{:keys [postprocess-article-html-fn] :as params} post]
+  (letfn [(postprocess-article [article]
             (if postprocess-article-html-fn
-              (postprocess-article-html-fn post params)
-              post))]
-    (-> article
-        ;;;;
-        (fn [{dom :content-dom :as post}]
-          (-> post
+              (postprocess-article-html-fn article params)
+              article))]
+    (-> post
+        ((fn [{dom :content-dom :as article}]
+          (-> article
               (dissoc :content-dom)
-              (assoc
+              (assoc 
                 :full (util/enlive->html-text dom)
-                :content (util/enlive->html-text (take (params :blocks-per-preview) dom)))))
-        postprocess-article ; postprocess preview
-        (fn [post]
-          (assoc post :preview (post :content)))
-        postprocess-article ; postprocess full
+                :content (util/enlive->html-text (take 1 dom))))))
+        postprocess-article
+        ((fn [article]
+          (-> article
+              (assoc :preview (article :content))
+              (assoc :content (article :full)))))
+        postprocess-article
         )))
 
 (defn archive-order
