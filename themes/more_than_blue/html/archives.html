@@ -4,8 +4,11 @@
 
 <div id="posts">
     <div id="page-header">
-        <h2>Archives</h2>
-		<p>Click on a post to open a preview</p>
+        <h2>Past Blog Posts</h2>
+		<p>
+			Click on a post to open a preview and view its tages or view all tags <a href="/blog/tags">here</a>.
+		</p>
+
     </div>
     {% for postset in allposts %}
         <h4>{{postset.group}}</h4>
@@ -17,6 +20,12 @@
 					{{post.date|date:"MMM dd"}} - <a href="{{post.uri}}">{{post.title}}</a>
 				</summary>
 				<div class="preview">
+					{% if post.tags|not-empty %}
+					<b>Tags: </b>
+					{% for tag in post.tags %}
+					<a href="{{tag.uri}}">{{tag.name}}</a>
+					{% endfor %}
+					{% endif %}
 					{{post.preview|safe}}
 				</div>
 			</details>
