@@ -16,8 +16,19 @@
 (def resolved-config (delay (resolve-config)))
 
 (def extra-config-dev
-  "Add dev-time configuration overrides here, such as `:hide-future-posts? false`"
-  {})
+;  {:extend-params-fn (fn extend-params [params site-data]
+;                       (assoc params :allposts (site-data :posts)))})
+  {:extend-params-fn
+   (fn extend-params [params {:keys [posts] :as site-data}]
+     (let [tag-count (->> (:posts-by-tag site-data)
+                          (map (fn [[k v]] [k (count v)]))
+                          (into {}))
+           tags-with-count (update
+                             params :tags
+                             #(map(fn [t] (assoc t
+                                            :count (tag-count (:name t)))) %))
+           new-site-data (assoc tags-with-count :allposts posts)]
+         new-site-data))})
 
 (defn init [& [fast?]]
   (load-plugins)
@@ -26,7 +37,7 @@
     (run!
       #(if fast?
          (start-watcher-for-changes! % ignored-files compile-assets-timed extra-config-dev)
-         (start-watcher! % ignored-files compile-assets-timed))
+         (start-watcher! % ignored-files (partial compile-assets-timed extra-config-dev)))
       ["content" "themes"])))
 
 (defn wrap-subdirectories
