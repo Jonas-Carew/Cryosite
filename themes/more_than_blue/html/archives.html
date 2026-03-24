@@ -2,35 +2,19 @@
 {%block subtitle %}: Archives{% endblock %}
 {% block content %}
 
-<div id="post">
-    {% for post in allposts %}
-    <div class="post-header">
-        <h2>{{post.title}}</h2>
-        <div id="post-meta">
-            {% if post.author %}
-            <div class="author">{{post.author}}</div>
-            {% endif %}
-            <div class="date">{{post.date|date:longDate}}</div>
-        </div>
-    </div>
-    {{post.content|safe}}
-    <a href="{{post.uri}}">Continue reading &#8594;</a>
-    <hr>
-    {% endfor %}
-</div>
-
 <div id="posts">
     <div id="page-header">
         <h2>Archives</h2>
     </div>
-    {% for group in groups %}
-        <h4>{{group.group}}</h4>
+    {% for postset in allposts %}
+        <h4>{{postset.group}}</h4>
         <ul>
-        {% for post in group.posts %}
+        {% for post in postset.posts %}
         <li>
-			<details>
-			</details>
             {{post.date|date:"MMM dd"}} - <a href="{{post.uri}}">{{post.title}}</a>
+			<details>
+				{{post}}
+			</details>
         </li>
         {% endfor %}
         </ul>

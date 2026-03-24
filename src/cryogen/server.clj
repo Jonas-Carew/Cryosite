@@ -10,14 +10,43 @@
     [cryogen-core.compiler :refer [compile-assets-timed]]
     [cryogen-core.config :refer [resolve-config]]
     [cryogen-core.io :refer [path]]
+    [cryogen-core.util :as util]
     [clojure.string :as string])
   (:import (java.io File)))
 
 (def resolved-config (delay (resolve-config)))
 
+(defn htmlize
+  [{:keys [postprocess-article-html-fn] :as params} article]
+  (letfn [(postprocess-article [post]
+            (if postprocess-article-html-fn
+              (postprocess-article-html-fn post params)
+              post))]
+    (-> article
+        ;;;;
+        (fn [{dom :content-dom :as post}]
+          (-> post
+              (dissoc :content-dom)
+              (assoc
+                :full (util/enlive->html-text dom)
+                :content (util/enlive->html-text (take (params :blocks-per-preview) dom)))))
+        postprocess-article ; postprocess preview
+        (fn [post]
+          (assoc post :preview (post :content)))
+        postprocess-article ; postprocess full
+        )))
+
+(defn archive-order
+  [posts]
+  (->> posts
+       (group-by :formatted-archive-group)
+       (map (fn [[group postset]]
+              {:group group
+               :parsed-group (:parsed-archive-group (get posts 0))
+               :posts postset}))
+       (sort-by :parsed-group)))
+
 (def extra-config-dev
-;  {:extend-params-fn (fn extend-params [params site-data]
-;                       (assoc params :allposts (site-data :posts)))})
   {:extend-params-fn
    (fn extend-params [params {:keys [posts] :as site-data}]
      (let [tag-count (->> (:posts-by-tag site-data)
@@ -27,8 +56,12 @@
                              params :tags
                              #(map(fn [t] (assoc t
                                             :count (tag-count (:name t)))) %))
-           new-site-data (assoc tags-with-count :allposts posts)]
-         new-site-data))})
+           allposts (map (fn [post]
+                           (let [html (htmlize params post)]
+                             (assoc post :full (html :content) :preview (html :preview))))
+                         posts)
+           new-params (assoc tags-with-count :allposts (archive-order allposts))]
+         new-params))})
 
 (defn init [& [fast?]]
   (load-plugins)
