@@ -1,20 +1,20 @@
 {
-	:title	"Asciidoc and Learning New Things"
-	:date	"2026-01-23"
+	:title	"Sample Post"
+	:date	"2026-03-19"
 	:tags	["cryogen" "asciidoc"]
 	:toc	false
 }
 
-:toc: macro
+== Post Title ==
 
-== Example Asciidoc Post ==
 This is an example asciidoc post.
 
 You can use a manually placed table of contents by setting `:toc false` in the front matter, but use `:toc: macro` at the top of the post, and `toc::[]` where the table of contents is supposed to be, like here:
 
-toc::[]
+//:toc: macro
+//toc::[]
 
-=== Section 1 ===
+== Section 1 ==
 
 With some text and maybe even a bulleted list:  
 
@@ -23,7 +23,7 @@ With some text and maybe even a bulleted list:
 
 Or how about some *bold* or _italicized_ text?
 
-=== Section 2 ===
+== Section 2 ==
 
 Will a code snippet work?  
 
@@ -40,7 +40,7 @@ $ echo "foo"
   (println s))
 ----
 
-=== Section 3 ===
+== Section 3 ==
 
 What about math?
 

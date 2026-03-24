@@ -5,16 +5,20 @@
 <div id="posts">
     <div id="page-header">
         <h2>Archives</h2>
+		<p>Click on a post to open a preview</p>
     </div>
     {% for postset in allposts %}
         <h4>{{postset.group}}</h4>
         <ul>
         {% for post in postset.posts %}
         <li>
-            {{post.date|date:"MMM dd"}} - <a href="{{post.uri}}">{{post.title}}</a>
 			<details>
-				{{post.dom}}
-				{{post.preview|safe}}
+				<summary>
+					{{post.date|date:"MMM dd"}} - <a href="{{post.uri}}">{{post.title}}</a>
+				</summary>
+				<div class="preview">
+					{{post.preview|safe}}
+				</div>
 			</details>
         </li>
         {% endfor %}
