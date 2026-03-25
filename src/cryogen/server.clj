@@ -30,7 +30,6 @@
                 :full (util/enlive->html-text dom)
                 :content (util/enlive->html-text (take (params :blocks-per-preview) dom))
                 :dom dom))))
-              ; NOT WORKING FOR ASCIIDOC >:(
         postprocess-article
         ((fn [article]
           (-> article
