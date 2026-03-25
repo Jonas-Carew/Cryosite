@@ -40,5 +40,11 @@ Before starting the big list, note that you can find all of my dot files in link
 
 ** I use link:https://gitlab.freedesktop.org/emersion/grim[grim], link:https://github.com/emersion/slurp[slurp], and link:https://github.com/jtheoof/swappy[swappy] to power a custom screenshot script that you can find in my dot files.
 
+* Being a mathematician, I do a lot of typesetting. link:https://www.latex-project.org/[$\LaTeX$] is the standard for this, I when I do use it I usually use link:https://www.overleaf.com/[Overleaf] as my compiler. Recently, I have been trying out link:https://typst.app/home[Typst], and I think it has both benefits and downsides, apart from just being new. For now, I will continue to use whichever one fits my usecase better.
+
+* My personal email is managed through link:https://proton.me/mail[Proton Mail], a more secure general-use email client. Proton makes an entire suite of apps, but this is the only one I use regularly.
+
+* I currently host all of my code using link:https://github.com/[GitHub], but I do plan to make the switch to link:https://codeberg.org/[Codeberg] in the near future.
+
 
 
