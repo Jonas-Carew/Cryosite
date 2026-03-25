@@ -14,7 +14,7 @@ Before starting the big list, note that you can find all of my dot files in link
 
 * For a lightning round of my desktop utilites:
 ** I use link:https://github.com/philj56/tofi[Tofi] to as my app launcher. Tofi is fast and works well with waybar, I don't have much more to say on it.
-** I use link:https://github.com/LGFae/swww?tab=readme-ov-file[swww] to manage my wallpaper, but upon writing this I've learned about (and will soon switch to) link:https://codeberg.org/LGFae/awww[awww], its non-deprecated successor.
+** I use link:https://codeberg.org/LGFae/awww[awww] to manage my wallpaper, although I don't do anything fancy with it.
 ** I use link:https://github.com/Alexays/Waybar[Waybar] with an almost-deault configuration to display all my statuses. I plan to update the look eventually, but have not done so yet.
 ** I use link:https://github.com/swaywm/swayidle[swayidle] and link:https://github.com/swaywm/swaylock[swaylock] to manage autolocking on my laptop.
 
