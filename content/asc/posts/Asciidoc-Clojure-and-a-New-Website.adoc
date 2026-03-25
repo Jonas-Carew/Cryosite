@@ -5,9 +5,95 @@
 	:toc	false
 }
 
-Making a new website is something I've always dreaded. All the little details of web development have always made me grind my teeth and I always end up abandoning the project. So this time I did something different: no Node, minimal JavaScript, and learn as many new tools as I can. Well, while looking through some options I stumbled upon link:https://cryogenweb.org/index.html[Cryogen], a tool that generates static sites using templates written in pure HTML and CSS. Additionally, Cryogen is written in Clojure, a language that I've absolutely never thought about before. On top of this, it offered me another option: instead of writing your pages in Markdown, I could use AsciiDoc, yet another brand new tool! Safe to say, I was excited to learn.
+Making a new website is something I've always dreaded. All the little details of web development have always made me grind my teeth and I always end up abandoning the project. So this time I did something different: no Node, minimal JavaScript, and learn as many new tools as I can. Well, while looking through some options I stumbled upon link:https://cryogenweb.org/index.html[Cryogen], a tool that generates static sites using templates written in pure HTML and CSS. Additionally, Cryogen is written in Clojure, a language that I've absolutely never thought about before. On top of this, it offered me another option: instead of writing my pages in Markdown, I could use AsciiDoc, yet another brand new tool! Safe to say, I was excited to learn.
 
 == The First Steps ==
 
-Getting started
+Getting started with Cryogen was quick and easy, and I had a locally hosted website fully functional with blog posts up in a matter of minutes. It took a bit to learn the customization scheme, but because I didn't have to interact with the Clojure at all, it was smooth sailing.
+
+After I wrote up a couple sample posts and pages, I decided to get my own look for the website, so I copied over the `blue_centered` default theme and got to work. Apart from the usual struggles of centering a div, the only thing I struggled with was interacting with Cryogen to get my posts displayed where and how I wanted.
+
+By default, Cryogen supports a couple different formats for your home page
+
+* Your own standard home page with nothing special going on
+
+* A single, full-length post
+
+* Many smaller post previews
+
+Unfortunately, I wanted to have my own content first, and then an additional preview of my most recent post. Now, I had already created my own templates, and so I had interacted with with Cryogen a bit, so how much more difficult could this be?
+
+== Learning Clojure ==
+
+Much more difficult. I ended up spending several days learning how to write basic Clojure and inject it into Cryogen's server so that I can have access to all of my posts in chronological order, both in full and in only a preview, on every page of my website. A significant portion of my written Clojure is copied over from similar functions from link:https://github.com/cryogen-project/cryogen-core/[Cryogen's compiler], but I had to rewrite a decent amount of it and extend it to do exactly what I wanted. I ended up with the following extra config:
+
+.Snippet from server.clj
+[%collapsible]
+====
+[source,clojure]
+----
+(defn htmlize
+  [{:keys [postprocess-article-html-fn] :as params} post]
+  (letfn [(postprocess-article [article]
+            (if postprocess-article-html-fn
+              (postprocess-article-html-fn article params)
+              article))]
+    (-> post
+        ((fn [{dom :content-dom :as article}]
+          (-> article
+              (dissoc :content-dom)
+              (assoc
+                :full (util/enlive->html-text dom)
+                :content (util/enlive->html-text (take (params :blocks-per-preview) dom))
+                :dom dom))))
+        postprocess-article
+        ((fn [article]
+          (-> article
+              (assoc :preview (article :content))
+              (assoc :content (article :full)))))
+        postprocess-article
+        )))
+
+(defn archive-order
+  [posts]
+  (->> posts
+       (group-by :formatted-archive-group)
+       (map (fn [[group postset]]
+              {:group group
+               :parsed-group (:parsed-archive-group (get posts 0))
+               :posts postset}))
+       (sort-by :parsed-group)))
+
+(def extra-config-dev
+  {:extend-params-fn
+   (fn extend-params [params {:keys [posts] :as site-data}]
+     (let [tag-count (->> (:posts-by-tag site-data)
+                          (map (fn [[k v]] [k (count v)]))
+                          (into {}))
+           tags-with-count (update
+                             params :tags
+                             #(map(fn [t] (assoc t
+                                            :count (tag-count (:name t)))) %))
+           allposts (map (fn [post]
+                           (let [html (htmlize params post)]
+                             (assoc post 
+                                    :full (html :content) 
+                                    :preview (html :preview)
+                                    :dom (vec (html :dom))
+                                    ))) posts)
+           ordered (archive-order allposts)
+           new-params (assoc tags-with-count
+                             :allposts ordered
+                             :firstpost (first ((first ordered) :posts)))]
+         new-params))})
+----
+====
+
+I then was able to integrate this into my custom theme, first giving me a custom landing page that also displays a preview of my most recent post. I then also updated my blog archive to have an expandable preview for every single post listed. If you're interested in the details, all of this code can be found on link:https://github.com/Jonas-Carew/Cryosite[my repository].
+
+== The Future ==
+
+This site still has quite a bit left to do, and it will continue to expand as I work on more projects and make more blogposts, but for now it is complete. This project has given me a new appreciation for Clojure, and I'm enjoying AsciiDoc quite a bit as I write this, so here's where I recommend you do something similar! Go out of your way to do something with tools that are completely foreign to you and get some brand new skills -- it will never cease to help you grow.
+
+
 
