@@ -10,7 +10,7 @@ My laptop is running link:https://bedrocklinux.org/[Bedrock Linux], a meta-ditri
 
 Before starting the big list, note that you can find all of my dot files in link:https://github.com/Jonas-Carew/Dots[this repo] on my github.
 
-* I use link:https://isaacfreund.com/software/river/[River] as my main Wayland compositor and I do not (yet) use a separate window manager. River uses tags to manage several workspaces and allows for a very high level of very easy customization. I also highly endore the KDE as an out-of-the-box yet customizable traditional Linux desktop enviroment.
+* I use link:https://isaacfreund.com/software/river/[River] 0.3.11 as my main Wayland compositor and window manager, and I plan to update to River 0.4.0 soon. River uses tags to manage several workspaces and allows for a very high level of very easy customization. I also highly endore the KDE as an out-of-the-box yet customizable traditional Linux desktop enviroment.
 
 * For a lightning round of my desktop utilites:
 ** I use link:https://github.com/philj56/tofi[Tofi] to as my app launcher. Tofi is fast and works well with waybar, I don't have much more to say on it.
