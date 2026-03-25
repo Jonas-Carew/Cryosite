@@ -32,4 +32,6 @@
  :klipse                       {}
  :description-include-elements #{:p :h1 :h2 :h3 :h4 :h5 :h6}
  :debug?                       false
+ :webring-prev                 "https://dam-ring.pdx.land/prev?referer=jonascarew.com"
+ :webring-next                 "https://dam-ring.pdx.land/next?referer=jonascarew.com"
                                 }
