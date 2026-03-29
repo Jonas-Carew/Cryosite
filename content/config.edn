@@ -10,7 +10,7 @@
  :author-root-uri              "authors-output"
  :public-dest                  "public"
  :blog-prefix                  ""
- :rss-name                     "JonasCarew.xml"
+ :rss-name                     "JonasCarewBlog.xml"
  :rss-filters                  []
  :recent-posts                 3
  :post-date-format             "yyyy-MM-dd"
