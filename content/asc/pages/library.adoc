@@ -14,7 +14,18 @@ This reading list is primarily focused on books in mathematics on occasionally o
 
 === Abstract Algebra ===
 
-* A Course in Universal Algebra by Burris and Sankappanavar
+Test
+
+* {empty}
++
+--
+.A Course in Universal Algebra by Burris and Sankappanavar
+[%collapsible]
+====
+I have not yet read this book, but it is a possible selection for the algebra reading group which I host.
+====
+--
+
 * A Term of Commutative Algebra by Altman and Kleiman
 * Abelian Groups by Fuchs
 * Abstract Algebra by Dummit and Foote

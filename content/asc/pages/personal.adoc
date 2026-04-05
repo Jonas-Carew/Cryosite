@@ -10,7 +10,7 @@ Learning is a big part of my life and my identity, and I like to think that many
 
 == Hobbies ==
 
-I'm always interested in learning new things, and I'm usually tinkering with or tweaking some part of my laptop's environment. I'm also very passionate about abstract algebra, and I'm usually reading a textbook in the subject. You can find my full reading list link:../reading[here]. Apart from these, I skateboard, play videogames, read books, and do whatever else might come to my mind.
+I'm always interested in learning new things, and I'm usually tinkering with or tweaking some part of my laptop's environment. I'm also very passionate about abstract algebra, and I'm usually reading a textbook in the subject. You can find my full reading list link:../library[here]. Apart from these, I skateboard, play videogames, read books, and do whatever else might come to my mind.
 
 
 
