@@ -4,36 +4,122 @@
 	:navbar?	false
 }
 
+:toc: macro
+
 == My Reading List ==
 
-This reading list is primarily focused on books in mathematics on occasionally other academic works. It's ordered alphabetically (not automatically though, message me if there is a mistake) with no regard for quality. It may expand to a full list of fictional works or poetry at some point in the future. I also have not read everything in this list to completion, or even started reading. I plan to include expandable descriptions for every book on this list at some point in the future. If you are curious about any of these books and they aren't available at a local public library, please contact me, I am happy to help find you an affordable source.
+This reading list is primarily focused on books in mathematics and occasionally other academic fields. It's ordered alphabetically (not automatically though, please contact me if there is a mistake) with no regard for quality. It may expand to a full list including fictional works or poetry at some point in the future. I also have not read everything in this list to completion, or even started reading. I am working on including expandable descriptions for every publication on this list. If you are curious about any of these books and they aren't available at a local public library, please contact me, I am happy to help find you an affordable source.
 
 > Culture shouldn't exist only for those who can afford it.
 >
 > __&#8212; Arsi "Hakita" Patala__
 
-=== Abstract Algebra ===
+toc::[]
 
-Test
+== Books
+
+=== Abstract Algebra ===
 
 * {empty}
 +
 --
-.A Course in Universal Algebra by Burris and Sankappanavar
+.*A Course in Universal Algebra by Burris and Sankappanavar*
 [%collapsible]
 ====
 I have not yet read this book, but it is a possible selection for the algebra reading group which I host.
+
+This book focuses on introductory universal algebra, which is the study of algebraic objects and theories.
+====
+--
+* {empty}
++
+--
+.*A Term of Commutative Algebra by Altman and Kleiman*
+[%collapsible]
+====
+I have not yet read this book, but it was a possible selection for the algebra reading group which I host. I do plan to read this soon, as it seems quite interesting.
+
+This book focuses on introductory commutative algebra, dealing with rings and modules and their place in commutative algebra.
+====
+--
+* {empty}
++
+--
+.*Abelian Groups by Fuchs*
+[%collapsible]
+====
+I am currently reading this book off and on; it is a tough read but I find the topics of great interest.
+
+This book focuses on deeper topics related to abelian groups. In particular, lower level set-theory such as cardinalities are dealt with explicitly.
+====
+--
+* {empty}
++
+--
+.*Abstract Algebra by Dummit and Foote*
+[%collapsible]
+====
+I have read some of this book and I plan to read through its entirety at some point.
+
+A staple of graduate courses in abstract algebra, this book gives a detailed introduction to many of the important topics in algebra.
+====
+--
+* {empty}
++
+--
+.*Abstract Algebra by Judson*
+[%collapsible]
+====
+I have read nearly the entirety of this book.
+
+This book is a stellar introduction to basic topics in group, ring, and field theory, and its open source nature provides a great platform for new learners.
+====
+--
+* {empty}
++
+--
+.*Algebra by Hungerford*
+[%collapsible]
+====
+I have skimmed some pages of this book; it was a possible selection for the algebra reading group which I host.
+
+I originally looked at this book for a suitable introduction to commutative algebra and possibly basic algebraic geometry, which is minorly covered in one of the later chapters.
+====
+--
+* {empty}
++
+--
+.*Algebra: An Approach via Module Theory by Adkins and Weintraub*
+[%collapsible]
+====
+I have skimmed some pages of this book; it was a possible selection for the algebra reading group which I host.
+
+I saw this book as a way to dive deeper into some concepts in module theory if people were so inclined, but this book was not chosen, and as such I cannot say much about it.
+====
+--
+* {empty}
++
+--
+.*Algebra: Chapter 0 by Aluffi*
+[%collapsible]
+====
+I picked this book up over my winter break in 2025 to review my algebra before I took a class in module theory. I have read the first 7 or so chapters, and I plan to finish the book at some point.
+
+This book has stellar exposition, and I greatly recommend it to anyone aiming to learn algebra. It starts from the very top of group theory and works through each subject at a consistent pace. It contains brief categorical perspectives which allow the reader to explore deeper on their own.
+====
+--
+* {empty}
++
+--
+.*Complexity of Infinite Domain Constraint Satisfaction by Bodirsky*
+[%collapsible]
+====
+I found this book while I was unsure of what to read, but I have not read it yet. I plan to read this, as it seems to cover many greatly interesting topics.
+
+I cannot speak much about the book, but it does talk on satisfiability problems, model theory, universal algebra, and Ramsey theory, among other topics.
 ====
 --
 
-* A Term of Commutative Algebra by Altman and Kleiman
-* Abelian Groups by Fuchs
-* Abstract Algebra by Dummit and Foote
-* Abstract Algebra by Judson
-* Algebra by Hungerford
-* Algebra: An Approach via Module Thoery by Adkins and Weintraub
-* Algebra: Chapter 0 by Paolo Aluffi
-* Complexity of Infinite Domain Constraint Satisfaction by Bodirsky
 * Elements of Set Theory by Enderton
 * Foundations of Module and Ring Theory by Wisbauer
 * Intro to Higher Order Categorical Logic by Lambek and Scott
@@ -81,6 +167,20 @@ I have not yet read this book, but it is a possible selection for the algebra re
 * Computer Architecture: A Quantitative Approach by Hennesy and Patterson
 * Computer Organization and Design by Hennesy and Patterson
 * Digital Design and Computer Architecture by Harris
+
+== Papers ==
+
+=== Abstract Algebra ===
+
+* Combinatorics and the Schur Algebra by Green
+
+=== High Performance Computing ===
+
+* Buffets: An Efficient and Composable Storage Idiom for Explicit Decoupled Data Orchestration by Pellauer et al.
+
+* PULSE: Accelerating Distributed Pointer-Traversals on Disaggregated Memory (Extended Version) by Tang et al.
+
+* Isolating Functions at the Hardware Limit with Virtines by Wanninger et al.
 
 
 
