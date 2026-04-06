@@ -78,6 +78,17 @@ This book is a stellar introduction to basic topics in group, ring, and field th
 * {empty}
 +
 --
+.*Abstract and Concrete Categories by Adamek, Herrlich, and Strecker*
+[%collapsible]
+====
+I have not read much of this book, but it covers many topics I find interesting, so I expet to at least skim it at some point.
+
+This book covers many important categorical constructions, and I have heard of it several times, so I imagine it does a good job of exposition.
+====
+--
+* {empty}
++
+--
 .*Algebra by Hungerford*
 [%collapsible]
 ====
@@ -111,6 +122,39 @@ This book has stellar exposition, and I greatly recommend it to anyone aiming to
 * {empty}
 +
 --
+.*Categorical Logic and Type Theory by Jacobs*
+[%collapsible]
+====
+I have not read much of this book apart from the introduction, but I would like to learn more type theory at some point, and this book certainly piques my interest in that regard.
+
+A good foundation of category theory and similar mathematical topics is expected as a prerequisite, but as such this book is able to move quite quickly into advanced topics.
+====
+--
+* {empty}
++
+--
+.*Categorical Models of Constructive Logic by Streicher*
+[%collapsible]
+====
+I would love to read this text, but much of the notation is still unknown to me. I plan to come back to this at some point soon.
+
+This text is very short and covers some topics that would be great to learn such as hyperdoctrines, but it expects prerequisites that I don't yet have, so I can't speak on it yet.
+====
+--
+* {empty}
++
+--
+.*Categories, Allegories by Freyd and Scedrov*
+[%collapsible]
+====
+I have read the beginning of this book and it was one of the possibile candidates to read in the algebra reading group that I run, but I have not read too significant of an amount.
+
+This text uses several pieces of non-standard notation that I am not a fan of, although they might pose some benefit that I am not aware of. Apart from this, it covers many important categorical concepts in great detail.
+====
+--
+* {empty}
++
+--
 .*Complexity of Infinite Domain Constraint Satisfaction by Bodirsky*
 [%collapsible]
 ====
@@ -119,31 +163,298 @@ I found this book while I was unsure of what to read, but I have not read it yet
 I cannot speak much about the book, but it does talk on satisfiability problems, model theory, universal algebra, and Ramsey theory, among other topics.
 ====
 --
+* {empty}
++
+--
+.*Elements of Set Theory by Enderton*
+[%collapsible]
+====
+I found this book while trying to re-learn set theory, in particular, trying to have a better foundation of ordinals and cardinals. I have not read the entire book, but the snippets I have read seem good.
 
-* Elements of Set Theory by Enderton
-* Foundations of Module and Ring Theory by Wisbauer
-* Intro to Higher Order Categorical Logic by Lambek and Scott
-* Introduction to Modern Algebra by Joyce
-* Lie Groups, Lie Algebras, and Respresentations by Hall
-* Model Theory: An Introduction by Marker
-* Notes on Set Theory by Moschovakis
-* Topoi, the Categorical Analysis of Logic by Goldblatt
-* Toposes, Triples, and Theories by Barr and Wells
+This book covers much of foundational set theory and, from what I have read, seems like a very good introduction to the topic. It also deals slightly with more advanced topics like cofinality, which were good from my experience.
+====
+--
+* {empty}
++
+--
+.*Foundations of Module and Ring Theory by Wisbauer*
+[%collapsible]
+====
+I have not yet read the majority of this book, but it was a possible selection for the algebra reading group which I host. I do plan to read more of this book at some point, as it seems to cover much of module theory in great detail.
+
+This book seems to serve as a great introduction to ring and module theory and dives into many more advanced topics, including categories. This does use the slightly non-standard notation of functions being applied on the right, although it leads to some conditions being nicer.
+====
+--
+* {empty}
++
+--
+.*Fuchsian Groups by Katok*
+[%collapsible]
+====
+I am in the process of reading this book, as I am currently auditing a course (of the same name) which has this book as the designated reading.
+
+This book seems to treat the topics inside with a great deal of detail, which, as someone who is unfamiliar to some of the concepts, has worked well for me.
+====
+--
+* {empty}
++
+--
+.*Intro to Higher Order Categorical Logic by Lambek and Scott*
+[%collapsible]
+====
+I have not read this book yet, but I plan to, and at one point it was the main book to read for a reading group that was never started.
+
+This book has a very quick introduction to category theory but seems to cover many very important concepts in categorical logic.
+====
+--
+* {empty}
++
+--
+.*Introduction to Modern Algebra by Joyce*
+[%collapsible]
+====
+I have not read this book, but it was shown to me by a friend, and it seems to take an unusual enough approach that it is worth reading eventually.
+
+This book seems to cover most basic algebra concepts that should be found in any standard introductory course in modern algebra, but it covers them backwards from the usual, starting at fields then working backwards to rings and groups.
+====
+--
+* {empty}
++
+--
+.*Lattices and Ordered Algebraic Structures by Blyth*
+[%collapsible]
+====
+I have read a very small portion of this book, but I plan to read significantly more, as the topic interests me greatly.
+
+I know much less than I would like to in the advanced portions of lattice theory, and so I cannot speak to the details of the book, but the exposition that I have read so far has been well done.
+====
+--
+* {empty}
++
+--
+.*Lie Groups, Lie Algebras, and Representations by Hall*
+[%collapsible]
+====
+I have not yet read this book, but it is a possible selection for the algebra reading group which I host.
+
+This book seems to do a good job of covering topics like Lie Groups and Lie Algebras without delving too far into the analysis side of things, which is the perspective I tend to look for.
+====
+--
+* {empty}
++
+--
+.*Model Theory: An Introduction by Marker*
+[%collapsible]
+====
+I have only read the first couple chapters of this book, but I may return to it at some point.
+
+Model theory is often covered in other books at a (presumably) fairly shallow level, and so having a book dedicated to the nuances to in-depth model theory seems good. From what I remember, the exposition was good, and I enjoyed what I did read.
+====
+--
+* {empty}
++
+--
+.*Notes on Set Theory by Moschovakis*
+[%collapsible]
+====
+I have read a very small portion of these notes, although they seem to be a good place to learn things that I have been meaning to, so I will likely return to them at some point.
+
+These notes are very dense and don't follow the usual stuctures of a textbook, but they do serve as a walk through much more advanced set theory than most books include.
+====
+--
+* {empty}
++
+--
+.*Representation Theory: A Categorical Approach by Grabowski*
+[%collapsible]
+====
+I have read snippets of this book, as it was recommended to me by a friend but I already know much of the content. I would love to read more of this at some point.
+
+This book is well written from what I have read so far, but that it not much.
+====
+--
+* {empty}
++
+--
+.*Set Theory by Jech*
+[%collapsible]
+====
+I have jumped around in this book, and I primarily got this book to read more on cofinality. I plan to read more in the near future.
+
+From what I have read so far, this book does a great job of treating set theory with the precision it needs, which has been helpful for learning more advanced topics.
+====
+--
+* {empty}
++
+--
+.*Sheaves in Geometry and Logic by MacLane and Moerdijk*
+[%collapsible]
+====
+I have not read very much of this book, but I plan to continue soon, as it covers many topics that I am greatly interested in.
+
+From what I have read, this book seems to have decent exposition and I am interested to see how it treats more advanced topics.
+====
+--
+* {empty}
++
+--
+.*Stone Spaces by Johnstone*
+[%collapsible]
+====
+I have read the first couple chapters of this book, and I plan to continue at some point, but it is a difficult read.
+
+An advanced book that is a tricky read, but from what I have read so far it has done a good job of explaining core concepts.
+====
+--
+* {empty}
++
+--
+.*Topoi, the Categorical Analysis of Logic by Goldblatt*
+[%collapsible]
+====
+I have read most of this book, but was unable to finish the final couple chapters due to time constraints.
+
+This book does a stellar job of teaching internal category theory and the internal logic of topoi, despite not talking about (usually very important) topics such as functors and adjunctions for a significant portion of the book.
+====
+--
+* {empty}
++
+--
+.*Toposes, Triples, and Theories by Barr and Wells*
+[%collapsible]
+====
+I have independently found this book several times, and it was a possible candidate for the algebra reading group that I run. I have not yet read any significant portion of the book.
+
+This book seems to do a detailed but dense job of discussing many of the introductory topics concerning categorical logic, and dives into more advanced concepts in the later half.
+====
+--
 
 === Algebraic Geometry ===
 
-* Algebraic Geometry by Hartshorne
-* Introduction to Algebraic Geometry by Hassett
-* Beginning in Algebraic Geometry by Clader and Ross
+* {empty}
++
+--
+.*Algebraic Geometry by Hartshorne*
+[%collapsible]
+====
+I have tried reading this book several times and have gotten further each time. No doubt I could read this book now, but I have not found the time to do so.
+
+This book is a tough read but is widely regarded as a great way to learn algebraic geometry if you can get through it.
+====
+--
+* {empty}
++
+--
+.*Beginning in Algebraic Geometry by Clader and Ross*
+[%collapsible]
+====
+I don't remember when I found this book, but it seems lke a suitable introduction to algebraic geometry. I may read through it at some point.
+
+This book seems to cover all the topics crucial to algebraic geometry, but I do not know enough of the subject to make further comments.
+====
+--
+* {empty}
++
+--
+.*Introduction to Algebraic Geometry by Hassett*
+[%collapsible]
+====
+I got this book as a possible choice for the algebra reading group that I run, but I would love to read through it at some point.
+
+This book seems like a great introduction to algebraic geometry, and includes some topics that I have wanted to learn for some time such as Grobner bases.
+====
+--
 
 === Analysis ===
 
-* Measure, Integration, and Real Analysis by Axler
-* Real Analysis by Carothers
-* Real Analysis by Stein and Shakarchi
-* Set Theory and Metric Spaces by Kaplansky
-* Understanding Analysis by Abbott
-* Vector Calculus, Linear Algebra, and Differential Forms by Hubbard and Hubbard
+* {empty}
++
+--
+.*Complex Analysis by Stein and Shakarchi*
+[%collapsible]
+====
+I am currently in a course using this book as the primary text, so I am in the process of reading it.
+
+This book's expositions has been very well done from what I have read so far, but that is not very far.
+====
+--
+* {empty}
++
+--
+.*Function Theory of One Complex Variable by Greene and Krantz*
+[%collapsible]
+====
+This book was a suggested supplement to a complex analysis course, but I have not yet read any of it.
+
+I have not actually looked at this book yet, so I cannot speak to how well it details its subject.
+====
+--
+* {empty}
++
+--
+.*Measure, Integration, and Real Analysis by Axler*
+[%collapsible]
+====
+I have read the first three (or so) chapters of this book, and it would be good for me to read more of it at some point.
+
+This book does an okay job at exposition, but sometimes is missing details that could be important.
+====
+--
+* {empty}
++
+--
+.*Real Analysis by Carothers*
+[%collapsible]
+====
+This was the required text for a course in analysis that I took, and without that course I would not have read this book.
+
+This book does a generally alright job at handling analysis, but has mistakes in some crucial places like the Arzela-Ascoli theorem.
+====
+--
+* {empty}
++
+--
+.*Real Analysis by Stein and Shakarchi*
+[%collapsible]
+====
+I have not read any significant amount of this book, and I do not know why I own it. I may still come back and read it at some point.
+
+I cannot speak much to the exposition nor the content of this book.
+====
+--
+* {empty}
++
+--
+.*Set Theory and Metric Spaces by Kaplansky*
+[%collapsible]
+====
+I am not entirely sure when I obtained this book, and it is short enough that from a brief skim I seem to already know much of the subjects covered.
+
+This book seems to cover topics which serve as a good introduction to basic set theory and metric spaces, including an introduction to topological spaces at the end.
+====
+--
+* {empty}
++
+--
+.*Understanding Analysis by Abbott*
+[%collapsible]
+====
+I used this book for my undergraduate advanced calculus courses, although we did not cover all of the additional topics at the end of the book.
+
+I enjoyed the exposition in this book, and it served as a great introduction to the basics of analysis such as $\varepsilon$-$\delta$ proofs.
+====
+--
+* {empty}
++
+--
+.*Vector Calculus, Linear Algebra, and Differential Forms by Hubbard and Hubbard*
+[%collapsible]
+====
+This book was the text for a class on multivariable advanced calculus that I took, but the class did not follow the book particularly closely, and as such I have not read this book.
+
+I believe I have heard good things about this book, although I cannot speak to it myself.
+====
+--
 
 === Linear Algebra ===
 
@@ -167,6 +478,16 @@ I cannot speak much about the book, but it does talk on satisfiability problems,
 * Computer Architecture: A Quantitative Approach by Hennesy and Patterson
 * Computer Organization and Design by Hennesy and Patterson
 * Digital Design and Computer Architecture by Harris
+
+=== Distributed Systems ===
+
+* Distributed Systems by Coulouris, Dollimore, Kindberg, and Blair
+* Distributed Systems by Tanenbaum and VanSteen
+
+=== Operating Systems ===
+
+* Operating Systems: Three Easy Pieces by Arpaci-Dusseau and Arpaci-Dusseau
+* xv6: A Simple, Unix-like Teaching Operating System by Cox, Kaashoek, and Morris
 
 == Papers ==
 
