@@ -28,13 +28,16 @@ body {
 	--color-background-light: rgb(255, 255, 255);
 	--color-background-mid: rgb(242, 242, 242);
 	--color-background-dark: rgb(238, 238, 238);
+	--color-background-darker: rgb(224, 224, 224);
 	--color-accent-light: rgb(85, 124, 153);
 	--color-accent-mid: rgb(78, 114, 136);
 	--color-accent-dark: rgb(71, 104, 124);
 	--color-shadow: rgba(45, 45, 45, 0.5);
 	--color-text-dark: rgb(51, 51, 51);
-	--color-text-mid: rgba(34, 34, 34, 0.5);
+	--color-text-mid: rgb(48,48,48);
 	--color-text-light: rgb(255, 255, 255);
+	--color-text-faint: rgba(34, 34, 34, 0.5);
+	--color-text-accent: rgb(169, 97, 17);
 	--color-text-link-normal: rgb(42, 42, 255);
 	--color-text-link-visited: rgb(120, 40, 194);
 	--color-text-link-active: rgb(255, 0, 0);
@@ -46,13 +49,16 @@ body[dark-theme=true] {
 	--color-background-light: rgb(70, 70, 70);
 	--color-background-mid: rgb(45, 45, 45);
 	--color-background-dark: rgb(60, 60, 60);
+	--color-background-darker: rgb(85, 85, 85);
 	--color-accent-light: rgb(85, 124, 153);
 	--color-accent-mid: rgb(78, 114, 136);
 	--color-accent-dark: rgb(71, 104, 124);
 	--color-shadow: rgba(0, 0, 0, 0.5);
 	--color-text-dark: rgb(242, 242, 242);
-	--color-text-mid: rgba(242, 242, 242, 0.7);
+	--color-text-mid: rgb(224, 224, 224);
 	--color-text-light: rgb(255, 255, 255);
+	--color-text-faint: rgba(242, 242, 242, 0.7);
+	--color-text-accent: rgb(227, 150, 57);
 	--color-text-link-normal: rgb(93, 183, 240);
 	--color-text-link-visited: rgb(167, 125, 240);
 	--color-text-link-active: rgb(255, 0, 0);
@@ -201,7 +207,7 @@ blockquote footer {
 
 #post-meta {
 	font-size: 14px;
-	color: var(--color-text-mid);
+	color: var(--color-text-faint);
 }
 
 #page-header {
@@ -225,26 +231,34 @@ pre code {
 }
 
 code {
-	color: rgb(255, 0, 0);
-	color: var(--color-accent-light);
+	color: var(--color-text-accent);
 }
 
 pre, code, .hljs {
-	background-color: var(--color-background-dark);
+	background-color: var(--color-background-darker);
+	color: var(--color-text-mid);
 }
 
 details > summary {
 	cursor: pointer;
 	display: inline-block;
-	padding: 4px 10px;
-	border: 2px solid var(--color-accent-light);
-	margin-bottom: 6px;
+	padding: 4px;
 	width: auto;
 	background-color: var(--color-background-dark);
+	box-shadow: 1px 1px 2px var(--color-shadow);
+}
+
+details > div {
+	position: relative;
+	padding: 4px;
+	margin: 0;
+	background-color: var(--color-background-dark);
+	box-shadow: 1px 1px 2px var(--color-shadow);
 }
 
 /* Archive previews */
 .preview-summary {
+	cursor: pointer;
 	display: inline-block;
 	padding: 4px;
 	margin: 0;
