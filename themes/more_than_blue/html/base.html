@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
 <head>
-	</script>
+	<!--
 	<script type="text/x-mathjax-config">
 		MathJax.Hub.Config({tex2jax: {inlineMath: [['$','$'], ['\\(','\\)']],
 			displayMath: [['\\[','\\]'], ['$$','$$']]}});
@@ -9,6 +9,15 @@
 	<script type="text/javascript"
 		src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
 	</script>
+	-->
+	<script>
+		MathJax = {
+			tex: {
+				inlineMath: {'[+]': [['$', '$']]}
+			}
+		};
+	</script>
+	<script defer src="https://cdn.jsdelivr.net/npm/mathjax@4/tex-mml-chtml.js"></script>
 	<script>
 		function themeToggle() {
 			let darkEnabled = document.body.getAttribute('dark-theme');
