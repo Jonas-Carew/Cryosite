@@ -6,7 +6,15 @@
 
 == About the Group ==
 
-I'm currently in the process of organizing a reading group centering around abstract algebra. We are currently finalizing the topic and the time we will meet, but expect it to start soon! Any questions about it can be sent to me at (carewj@oregonstate.edu).
+I host a reading group for *_abstract algebra_* meant to be accessible to most people who have taken a basic course in modern/abstract algebra and are eager to learn more. We meet weekly to talk about what we've read and to discuss questions and exercises in the book that we are reading.
+
+== Current Topic ==
+
+We are currently reading 'A Course in Universal Algebra' by Burris and Sankappanavar. This book aims to provide an approach to several (but not all) topics in universal algebra such as free algebras, finite automata, stone duality, and model theory.
+
+== Contact ==
+
+If you'd like to join the reading group, feel free to contact me via any means; we are always looking for additional perspectives on the material we read, and your input is welcome! We primarily meet in person at Oregon State University, but we also host a zoom session on a laptop so people can join wherever they are.
 
 
 
