@@ -26,7 +26,7 @@ toc::[]
 .*A Course in Universal Algebra by Burris and Sankappanavar*
 [%collapsible]
 ====
-I have not yet read this book, but it is a possible selection for the algebra reading group which I host.
+I am currently in the progress of reading this text, as it is the current focus of the algebra reading group which I host.
 
 This book focuses on introductory universal algebra, which is the study of algebraic objects and theories.
 ====
@@ -235,7 +235,7 @@ I know much less than I would like to in the advanced portions of lattice theory
 .*Lie Groups, Lie Algebras, and Representations by Hall*
 [%collapsible]
 ====
-I have not yet read this book, but it is a possible selection for the algebra reading group which I host.
+I have not yet read this book, but it was a possible selection for the algebra reading group which I host.
 
 This book seems to do a good job of covering topics like Lie Groups and Lie Algebras without delving too far into the analysis side of things, which is the perspective I tend to look for.
 ====
@@ -260,6 +260,17 @@ Model theory is often covered in other books at a (presumably) fairly shallow le
 I have read a very small portion of these notes, although they seem to be a good place to learn things that I have been meaning to, so I will likely return to them at some point.
 
 These notes are very dense and don't follow the usual stuctures of a textbook, but they do serve as a walk through much more advanced set theory than most books include.
+====
+--
+* {empty}
++
+--
+.*Post Modern Algebra by Smith and Romanowska*
+[%collapsible]
+====
+I have begun reading this book, and I have also read a portion regarding quasigroups, as this was a text that I found when I first approached the subject.
+
+This book seems to be a good, distinct perspective on learning modern (or post modern) algebra and covers topics such as semigroups, monoids, and quasigroups quite deeply. This seems less common, and so I welcome the perspective, especially as quasigroups have been very interesting to work with so far.
 ====
 --
 * {empty}
@@ -460,24 +471,98 @@ I believe I have heard good things about this book, although I cannot speak to i
 
 * Linear Algebra by Friedberg, Insel, and Spence
 * Linear Algebra Done Right by Axler
-* Linear Algebra Done Wrong by Treil
+* {empty}
++
+--
+.*Linear Algebra Done Wrong by Treil*
+[%collapsible]
+====
+My first proof-based linear algebra class used this book, and although the class went a bit slow, I have now read through most of this book.
 
-=== Topology
+I enjoyed the ordering of the material in this book, which is evidently the wrong way. I would highly reccomend this as a first book for many topics in linear algebra.
+====
+--
+
+=== Topology ===
 
 * Algebraic Topology by Hatcher
 * General Topology by Willard
 * Topology by Munkres
 
-=== Theory of Computation and Programming Languages ===
+=== Probability ===
 
-* Formal Languages and Automata by Linz Rodger
-* Programming Language Fundamentals by Martin Erwig
+* {empty}
++
+--
+.*Introduction to Probability by Bertsekas and Tsitsiklis*
+[%collapsible]
+====
+I got this book for an engineering probability course that I took, but I never ended up reading it. I plan to learn more probability, so I may return to this book.
+
+As I haven't read any of this book, I can't speak to its content further than it being an introduction to very basic probability.
+====
+--
+
+=== Theoretical Computer Science ===
+
+* {empty}
++
+--
+.*Formal Languages and Automata by Linz Rodger*
+[%collapsible]
+====
+The book for my first course in theory of computation, and I have read just over half of it. I may read more eventually, it is unsure.
+
+Of what I read, this book had well done exposition, although it was tailored to the computer scientist. Some of the more intensive proofs were left out, but nothing had a significant reliance on anything left unproven. I would highly reccomend this book as an introduction to finite automata and turing machines.
+====
+--
+* {empty}
++
+--
+.*Programming Language Fundamentals by Martin Erwig*
+[%collapsible]
+====
+This book was written by a professor at Oregon State University, and so in preparation for taking his class, I read this entire book over the summer of 2025.
+
+This book was my first exposure to this subject, so I feel like I have difficulty placing how good it is. I definitely learned many important concepts from it, and I think it covers a good breadth, even delving into type theory for a short time.
+====
+--
 
 === Computer Architecture ===
 
-* Computer Architecture: A Quantitative Approach by Hennesy and Patterson
-* Computer Organization and Design by Hennesy and Patterson
-* Digital Design and Computer Architecture by Harris
+* {empty}
++
+--
+.*Computer Architecture: A Quantitative Approach by Hennesy and Patterson*
+[%collapsible]
+====
+An absolute behemoth of a book, I surely have not read all of it. I have read a lot though, and many of the appendices, where much of the information lies.
+
+This book covers the topic of computer architecture in a very thorough fashion, with examples and history abound. Much of the content lies in the appendices, so do not miss them when you read this.
+====
+--
+* {empty}
++
+--
+.*Computer Organization and Design by Hennesy and Patterson*
+[%collapsible]
+====
+I have not read as much of this book as the more advanced version by the same authors, but I have still read a good amount of the main content of this book.
+
+This book serves as a better introduction to computer architecture than its cousin, but covers fewer advanced topics. I would definitely reccomend reading this book first if you are unfamiliar with the topics.
+====
+--
+* {empty}
++
+--
+.*Digital Design and Computer Architecture by Harris and Harris*
+[%collapsible]
+====
+I got this boook for my first class in digital logic design, and it was well worth it. I read through much of the book during that time, and although I have not read much since then, it covers many more advanced topics.
+
+Slightly lower level than the other architecture books that I own, this book focuses on building up a computer from very basic transistors and logic gates. It gets into more advanced topics that I have not read as much about, but does not delve as deep into higher performance architectures as the books from Hennesy and Patterson.
+====
+--
 
 === Distributed Systems ===
 
@@ -489,19 +574,122 @@ I believe I have heard good things about this book, although I cannot speak to i
 * Operating Systems: Three Easy Pieces by Arpaci-Dusseau and Arpaci-Dusseau
 * xv6: A Simple, Unix-like Teaching Operating System by Cox, Kaashoek, and Morris
 
+=== Quantum Computing ===
+
+* {empty}
++
+--
+.*Mathematics of Quantum Computing by Scherer*
+[%collapsible]
+====
+I have not yet read this, but it was a gift from a friend and I intend to read at least parts of it eventually.
+====
+--
+* {empty}
++
+--
+.*Quantum Computation and Quantum Information by Nielsen and Chuang*
+[%collapsible]
+====
+I have not yet read this, but it was a gift from a friend and I intend to read at least parts of it eventually.
+====
+--
+* {empty}
++
+--
+.*Quantum Computer Science by Mermin*
+[%collapsible]
+====
+I have not yet read this, but it was a gift from a friend and I intend to read at least parts of it eventually.
+====
+--
+* {empty}
++
+--
+.*Quantum Computing: A Gentle Introduction by Rieffel and Polak*
+[%collapsible]
+====
+I have not yet read this, but it was a gift from a friend and I intend to read at least parts of it eventually.
+====
+--
+
+=== Circuit Design ===
+
+* {empty}
++
+--
+.*Circuit Analysis and Design by Ulaby, Maharbiz, and Furse*
+[%collapsible]
+====
+I got this book for one of my first courses in circuit design, but I only ever read snippets. I know most of the material now, so it is unlikely I will go back to this book.
+
+This covers DC and AC circuit analysis, including technqiues like Laplace and Fourier transforms. Presumably it is a good introduction to the topics.
+====
+--
+* {empty}
++
+--
+.*Microelectronic Circuits by Sedra and Smith*
+[%collapsible]
+====
+A book for a more advanced class I took on circuit design, so (as I have a tendency to do with electrical engineering) I have barely read this.
+
+I have heard great reviews from trusted about this book, so I would highly reccomend it if you are interested in the topics inside.
+====
+--
+
 == Papers ==
 
-=== Abstract Algebra ===
+=== Representation Theory ===
 
-* Combinatorics and the Schur Algebra by Green
+* {empty}
++
+--
+.*Combinatorics and the Schur Algebra by Green*
+[%collapsible]
+====
+A paper I was given by a mentor for a direct reading program. We quickly switched to 'Schur-Weyl Duality' by Stevens, which was more aligned to our goals.
+====
+--
+* {empty}
++
+--
+.*Schur-Weyl Duality by Stevens*
+[%collapsible]
+====
+A paper I am currently reading for a directed reading program I am in, it introduces you to representations of fgroups, and some important results about representations of finite groups and $S_n$ in particular. I have not yet finished reading this paper.
+====
+--
 
 === High Performance Computing ===
 
-* Buffets: An Efficient and Composable Storage Idiom for Explicit Decoupled Data Orchestration by Pellauer et al.
-
-* PULSE: Accelerating Distributed Pointer-Traversals on Disaggregated Memory (Extended Version) by Tang et al.
-
-* Isolating Functions at the Hardware Limit with Virtines by Wanninger et al.
+* {empty}
++
+--
+.*Buffets: An Efficient and Composable Storage Idiom for Explicit Decoupled Data Orchestration by Pellauer et al.*
+[%collapsible]
+====
+One of a couple papers that a professor gave to me for possible research. It covers an alternate storage method that allows for better and faster control called a buffet. It serves as a structure somewhere in between a scratchpad and a cache, helping with fast and precise memory accesses.
+====
+--
+* {empty}
++
+--
+.*Isolating Functions at the Hardware Limit with Virtines by Wanninger et al.*
+[%collapsible]
+====
+One of a couple papers that a professor gave to me for possible research. It talks about using 'virtines', named to be virtual coroutines, a way of isolating certain function execution using very small but fast virtual machines.
+====
+--
+* {empty}
++
+--
+.*PULSE: Accelerating Distributed Pointer-Traversals on Disaggregated Memory (Extended Version) by Tang et al.*
+[%collapsible]
+====
+One of a couple papers that a professor gave to me for possible research. These researchers constructed a hardware accelerator to do near-memory pointer traversals. It is meant to be easily integrable into current systems, allowing modern data structures with lots of pointer traversals to operate much faster.
+====
+--
 
 
 
