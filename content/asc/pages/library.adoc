@@ -34,6 +34,28 @@ This book focuses on introductory universal algebra, which is the study of algeb
 * {empty}
 +
 --
+.*A First Course in Noncommutative Rings by Lam*
+[%collapsible]
+====
+I have read snippets of the book, as it was a recommended pre-reading for another book that I was looking at at some time.
+
+This book focuses on the basics of noncommutative ring theory, which are essential for studying anything further in the subject.
+====
+--
+* {empty}
++
+--
+.*Almost Free Modules - Set Theoretic Methods by Eklof and Mekler*
+[%collapsible]
+====
+An intensive book, I am slowly working my way through reading this. I find the subjects within this book very interesting and am still deeply curious about the contents.
+
+This book focuses on more advanced abstract algebra, in particular, the intersections with set theory. These relate to high-cardinality algebraic structures such as (as the name implies) almost free modules.
+====
+--
+* {empty}
++
+--
 .*A Term of Commutative Algebra by Altman and Kleiman*
 [%collapsible]
 ====
@@ -150,6 +172,17 @@ This text is very short and covers some topics that would be great to learn such
 I have read the beginning of this book and it was one of the possibile candidates to read in the algebra reading group that I run, but I have not read too significant of an amount.
 
 This text uses several pieces of non-standard notation that I am not a fan of, although they might pose some benefit that I am not aware of. Apart from this, it covers many important categorical concepts in great detail.
+====
+--
+* {empty}
++
+--
+.*Categories for the Working Mathematician by MacLane*
+[%collapsible]
+====
+A classic piece of literature in category theory, I have read pieces of this book but not the entirety yet, but I do expect this to change eventually.
+
+This book contains many of the most foundational results in category theory and how they relate to mathematicians who aren't working on abstract category theory, hence the name 'for the working mathematician'.
 ====
 --
 * {empty}
@@ -479,7 +512,7 @@ I believe I have heard good things about this book, although I cannot speak to i
 ====
 My first proof-based linear algebra class used this book, and although the class went a bit slow, I have now read through most of this book.
 
-I enjoyed the ordering of the material in this book, which is evidently the wrong way. I would highly reccomend this as a first book for many topics in linear algebra.
+I enjoyed the ordering of the material in this book, which is evidently the wrong way. I would highly recommendthis as a first book for many topics in linear algebra.
 ====
 --
 
@@ -491,6 +524,28 @@ I enjoyed the ordering of the material in this book, which is evidently the wron
 
 === Probability ===
 
+* {empty}
++
+--
+.*An Introduction to Measure and Probability by Taylor*
+[%collapsible]
+====
+This is the book for one of my courses on probability theory, but I have only read through (roughly) the first chapter thus far.
+
+This book focuses on a rigorous development of probability theory using measure theory, giving a more rigorous mathematical foundation than many other books.
+====
+--
+* {empty}
++
+--
+.*An Introduction to Statistical Learning with Applications in R by James, Witten, Hastie, and Tibshirani*
+[%collapsible]
+====
+This is supplemental reading for one of my courses on statistical signal processing, but as it was not required I have not read this book.
+
+This book covers topics such as estimation, classification, and unsupervised learning, among many others.
+====
+--
 * {empty}
 +
 --
@@ -513,7 +568,7 @@ As I haven't read any of this book, I can't speak to its content further than it
 ====
 The book for my first course in theory of computation, and I have read just over half of it. I may read more eventually, it is unsure.
 
-Of what I read, this book had well done exposition, although it was tailored to the computer scientist. Some of the more intensive proofs were left out, but nothing had a significant reliance on anything left unproven. I would highly reccomend this book as an introduction to finite automata and turing machines.
+Of what I read, this book had well done exposition, although it was tailored to the computer scientist. Some of the more intensive proofs were left out, but nothing had a significant reliance on anything left unproven. I would highly recommend this book as an introduction to finite automata and turing machines.
 ====
 --
 * {empty}
@@ -549,7 +604,7 @@ This book covers the topic of computer architecture in a very thorough fashion, 
 ====
 I have not read as much of this book as the more advanced version by the same authors, but I have still read a good amount of the main content of this book.
 
-This book serves as a better introduction to computer architecture than its cousin, but covers fewer advanced topics. I would definitely reccomend reading this book first if you are unfamiliar with the topics.
+This book serves as a better introduction to computer architecture than its cousin, but covers fewer advanced topics. I would definitely recommend reading this book first if you are unfamiliar with the topics.
 ====
 --
 * {empty}
@@ -568,11 +623,53 @@ Slightly lower level than the other architecture books that I own, this book foc
 
 * Distributed Systems by Coulouris, Dollimore, Kindberg, and Blair
 * Distributed Systems by Tanenbaum and VanSteen
+* {empty}
++
+--
+.*Distributed Systems by Coulouris, Dollimore, Kindberg, and Blair*
+[%collapsible]
+====
+I got this book as a recommendation from a professor teaching a course on distributed systems
+
+This book focuses on the fundamentals of operating systems very thoroughly, and I've heard very good things about its exposition, although I have not read very much of it myself.
+====
+--
+* {empty}
++
+--
+.*Operating Systems: Three Easy Pieces by Arpaci-Dusseau and Arpaci-Dusseau*
+[%collapsible]
+====
+I got this book as a text for a course, but did not end up reading very much of it. It does seem like a good text, and so I might return to it in the future.
+
+This book focuses on the fundamentals of operating systems very thoroughly, and I've heard very good things about its exposition, although I have not read very much of it myself.
+====
+--
 
 === Operating Systems ===
 
-* Operating Systems: Three Easy Pieces by Arpaci-Dusseau and Arpaci-Dusseau
-* xv6: A Simple, Unix-like Teaching Operating System by Cox, Kaashoek, and Morris
+* {empty}
++
+--
+.*Operating Systems: Three Easy Pieces by Arpaci-Dusseau and Arpaci-Dusseau*
+[%collapsible]
+====
+I got this book as a text for a course, but did not end up reading very much of it. It does seem like a good text, and so I might return to it in the future.
+
+This book focuses on the fundamentals of operating systems very thoroughly, and I've heard very good things about its exposition, although I have not read very much of it myself.
+====
+--
+* {empty}
++
+--
+.*xv6: A Simple, Unix-like Teaching Operating System by Cox, Kaashoek, and Morris*
+[%collapsible]
+====
+I got this text for a course where we worked on a version of the xv6 operating system, so I have read snippets that were relevant at the time but no more.
+
+This book was good for the use of a course focusing on developing the xv6 operating system, but I did not read it contiguously, so I don't feel confident speaking to its merits otherwise.
+====
+--
 
 === Quantum Computing ===
 
@@ -634,7 +731,7 @@ This covers DC and AC circuit analysis, including technqiues like Laplace and Fo
 ====
 A book for a more advanced class I took on circuit design, so (as I have a tendency to do with electrical engineering) I have barely read this.
 
-I have heard great reviews from trusted about this book, so I would highly reccomend it if you are interested in the topics inside.
+I have heard great reviews from trusted about this book, so I would highly recommend it if you are interested in the topics inside.
 ====
 --
 
