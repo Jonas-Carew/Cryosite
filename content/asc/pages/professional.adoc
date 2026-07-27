@@ -10,13 +10,23 @@ I am currently spending four years at Oregon State University to complete three 
 
 == Past Experience ==
 
-In high school I worked at my school's tech center, primarily fixing old computers and imaging new ones. Over my summers I worked several food service jobs, which gave me perspective that I still consider important. Since being in university, I held several different teaching jobs, first being an learning assistant for a vector calculus class, helping students in class in an active learning environment, and now being a learning assistant for electronics courses, helping students in labs analyze, build, and test circuits. At the same time, I have been a resident assistant since fall 2024, where I help new students living in residence halls get acquianted with our campus and find a sense of community.
+In high school I worked at my school's tech center, primarily fixing old computers and imaging new ones. Over my summers I worked several food service jobs, which gave me perspective that I still consider important. Since being in university, I held several different teaching jobs, first being an learning assistant for a vector calculus class, helping students in class in an active learning environment, and now being a learning assistant for electronics courses, helping students in labs analyze, build, and test circuits. As of fall 2026, I am once again a learning assistant for mathematics - this time for integral calculus.
+
+Outside of academia, I have also been a resident assistant since fall 2024, where I help new students living in residence halls get acquianted with our campus and find a sense of community. This is a particularly rewarding job as I get to help so many young adults find their different pathways through life.
+
+== Past Research ==
+
+In my second year of my undergrad (2024-25), I worked with Prof. Nick Marshall through the URSA program to do basic research in stochastic linear algebra. In particular, I examined the randomized Kaczmarz algorithm and variations upon it. I developed my own version to allow it to more effectively counteract highly corrupted datasets, and gave a poster presentation on this at OSU's spring poster symposium. You can find my poster link:../../files/URSA_Poster.pdf[here].
+
+In my third year of my undergrad (2025-26), I participated in the pilot program for the OSU Math Department's directed reading program. Alongside Kellen Houchin, I did various readings directed by Addison Day, a student of Prof. Jon Kujawa. We primarily read about the representations of finite groups, and the classification of the representations of the symmetric groups using partitions and Young tableau. We also read about representations of Lie algebras and Schur-Weyl duality. I gave a presentation about the characters of representations, which worked from the definition of a representation up to characters tables, mainly providing motivations instead of proofs. You can find this presentation link:../../files/DRP_Presentation.pdf[here].
+
+I am currently at an REU at Iowa State University studying temporal logic under Prof. Kristin Yvonne Rozier and Prof. Phillip Jones. My group has taken up the task of translating the semantics for spatial robustness from signal temporal logic (STL) into mission-time linear temporal logic (MLTL). This involves defining signals and signal maps, robustness, and robust intervals with a version of finite interval-based linear temporal logic which can specify to MLTL. This has led to disproving a highly-cited paper's foundational lemma, and instead providing sufficient conditions for which it holds. We have also made algorithms for calculating robust intervals in real-time and proven their correctness for online stream-based monitors. We are in the process of implementing the first version of these algorithms into R2U2, an MLTL monitor that previously had no robustness metrics. We will present the research we have so far at Iowa State's summer poster session and at the MAA Math Fest in Boston. We hope to continue doing this research and publish a paper with our findings soon.
 
 == Resources ==
 
 A PDF copy of my resume is linked below, which has much of the information above in more detail, along with several of my projects and my coursework. The best way to get in contact with me is usually by email, but my LinkedIn and GitHub are also linked below.
 
-*Resume:* link:../../files/Resume.pdf[Get Resume]
+*CV:* link:../../files/CV.pdf[Get CV]
 
 *Email:* carewj@oregonstate.edu
 
