@@ -10,13 +10,13 @@
 
 I am an undergraduate student at link:https://oregonstate.edu[Oregon State Univeristy] completing a triple major in mathematics, computer science, and electrical and computer engineering. I'm primarily interested in abstract algebra, set theory, high performance computing, computer architecture, and other similar fields. I hope to pursue a PhD in mathematics after I graduate in the spring of 2027.
 
-I enjoy pushing myself to learn new things constantly, and as such I'm usually reading a textbook, working on a project, or both. I'm also a large proponent of free and open source software, and you can find many of the tools that I use in an upcoming blog post.
+I enjoy pushing myself to learn new things constantly, and as such I'm usually reading a textbook, working on a project, or both. I'm also a large proponent of free and open source software, and you can find many of the tools that I use on this website within the link:/pages-output/personal[personal] tab.
 
 == This Website ==
 
 This website is here to serve as a hub for all of my info, and as a project to try new things. It contains links to many of my other accounts, but also serves as both a source for both professional and personal information about me.
 
-This website was made with link:https://cryogenweb.org/index.html[Cryogen], a static site engine written in Clojure, which helps with much of the templating and blog structures. Additionally all of the pages and blogposts are written in AsciiDoc, an alternative to MarkDown, which I did as a challenge to learn a new way to learn a new way of simple typesetting.
+This website was made with link:https://cryogenweb.org/index.html[Cryogen], a static site engine written in Clojure, which helps with much of the templating and blog structures, although I have made major modifications to the existing themes and minor modifications to Cryogen itself, which is discussed in link:/posts-output/Asciidoc-Clojure-and-a-New-Website[my very first blogpost]. Additionally all of the pages and blogposts are written in AsciiDoc, an alternative to MarkDown, which I did as a challenge to learn a new way to learn a new way of simple typesetting.
 
 
 
