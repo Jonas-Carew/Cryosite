@@ -10,7 +10,23 @@ Learning is a big part of my life and my identity, and I like to think that many
 
 == Hobbies ==
 
-I'm always interested in learning new things, and I'm usually tinkering with or tweaking some part of my laptop's environment. I'm also very passionate about abstract algebra, and I'm usually reading a textbook in the subject. You can find my link:../library[full reading list] as another page on this site. Apart from these, I skateboard, play videogames, read books, and do whatever else might come to my mind.
+My largest passion is learning new things, and as such I'm often buried it a book - either physically or on my laptop. You can find my link:../library[reading list] as another page on this site, which contains many books that I have read all, part of, or just that I'm planning on reading. These books are primarily mathematics, and even more primarily abstract algebra - which is one of the largest joys of my life. The books that I am currently reading are
+
+* Almost Free Modules - Set Theoretic Methods by Eklof and Mekler
+* A Course in Universal Algebra by Burris and Sankappanavar
+* Lattices and Ordered Algebraic Structures by Blyth
+
+I also read a lot of fantasy and science fiction in my younger years, and I still occasionally read philosophy and politics, as they are incredibly rich subjects with unending literature both from professionals and amateurs. (I encourage you to read more magazines!)
+
+I've built my own desktop computer to be powerful enough to modern graphics rendering and small enough to fit in a backpack - all on a college students budget. I've also tacked on some extra accessories I've taken from other old computers such as a CD-player and multimedia drive.
+
+I also take a lot of pride in the software on my computer, and not only can you find all of my dot files on my link:https://github.com/Jonas-Carew/Dots[GitHub repo], but you can find other projects that I've developed, such as
+
+* link:https://github.com/Jonas-Carew/WSL-Nix-Basis[A template to use my NixOS flake for a WSL development environment]
+* link:https://github.com/Jonas-Carew/TUI-Zig[A collection of TUI applets written in Zig, including solitaire!]
+* link:https://github.com/Jonas-Carew/Cryosite[This website, which is completely open source]
+
+Apart from these, I'm often skateboarding around given it's not too rainy, and I also play videogames on occasion (much less than I used too though). I also will happily dive into any interest-of-the-week, as I love exploring new topics, whether academic or otherwise.
 
 
 
