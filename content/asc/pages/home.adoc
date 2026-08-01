@@ -14,7 +14,7 @@ I enjoy pushing myself to learn new things constantly, and as such I'm usually r
 
 == This Website ==
 
-This website is here to serve as a hub for all of my info, and as a project to try new things. It contains links to many of my other accounts, but also serves as both a source for both professional and personal information about me.
+This website is here to serve as a hub for all of my info, and as a project to try new things. It contains links to many of my other accounts, but also serves as both a source for both professional and personal information about me. This site is also link:https://github.com/Jonas-Carew/Cryosite[completely open source], so there are no hidden pages nor trackers.
 
 This website was made with link:https://cryogenweb.org/index.html[Cryogen], a static site engine written in Clojure, which helps with much of the templating and blog structures, although I have made major modifications to the existing themes and minor modifications to Cryogen itself, which is discussed in link:/posts-output/Asciidoc-Clojure-and-a-New-Website[my very first blogpost]. Additionally all of the pages and blogposts are written in AsciiDoc, an alternative to MarkDown, which I did as a challenge to learn a new way to learn a new way of simple typesetting.
 
