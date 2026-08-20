@@ -8,7 +8,7 @@
 
 == My Reading List ==
 
-This reading list is primarily focused on books in mathematics and occasionally other academic fields. It's ordered alphabetically (not automatically though, please contact me if there is a mistake) with no regard for quality. It may expand to a full list including fictional works or poetry at some point in the future. I also have not read everything in this list to completion, or even started reading. I am working on including expandable descriptions for every publication on this list. If you are curious about any of these books and they aren't available at a local public library, please contact me, I am happy to help find you an affordable source.
+This reading list is primarily focused on books in mathematics and occasionally other academic fields. It's ordered alphabetically (not automatically though, please contact me if there is a mistake) with no regard for quality. It may expand to a full list including fictional works or poetry at some point in the future. I also have not read everything in this list to completion, or even started reading, this is simply a list to keep track of what I have read and could still read. If you are curious about any of these books and they aren't available at a local public library, please contact me, I am happy to help you locate an affordable source.
 
 > Culture shouldn't exist only for those who can afford it.
 >
@@ -502,8 +502,28 @@ I believe I have heard good things about this book, although I cannot speak to i
 
 === Linear Algebra ===
 
-* Linear Algebra by Friedberg, Insel, and Spence
-* Linear Algebra Done Right by Axler
+* {empty}
++
+--
+.*Linear Algebra by Friedberg, Insel, and Spence*
+[%collapsible]
+====
+I do not remember why I specifically own this book, although I do know that this book is very well known, and I would expect it to have good exposition.
+
+This book primarily focuses on undergraduate linear algebra, covering the basics as well as a more advanced course with the discussion of topics like SVD, bilinear forms, and canonical forms.
+====
+--
+* {empty}
++
+--
+.*Linear Algebra Done Right by Axler*
+[%collapsible]
+====
+I have this both because of its fame, and since a reading group I participated in used it briefly. I have sparsely read the intermediate chapters and closely read the final chapter "Multilinear Algebra and Determinants".
+
+This book creates polarizing opinions, and I do not agree with the ordering of this book. I believe that determinants should be learned, at least in the most basic form, long before bilinear forms and canonical forms. I also have long had a distaste for Axler's exposition. I respect that this book is well known and should often be mentioned, but I would highly recommend using a different book to learn linear algebra.
+====
+--
 * {empty}
 +
 --
@@ -512,15 +532,45 @@ I believe I have heard good things about this book, although I cannot speak to i
 ====
 My first proof-based linear algebra class used this book, and although the class went a bit slow, I have now read through most of this book.
 
-I enjoyed the ordering of the material in this book, which is evidently the wrong way. I would highly recommendthis as a first book for many topics in linear algebra.
+I enjoyed the ordering of the material in this book, which is evidently the wrong way. I would highly recommend this as a first book for many topics in linear algebra.
 ====
 --
 
 === Topology ===
 
-* Algebraic Topology by Hatcher
-* General Topology by Willard
-* Topology by Munkres
+* {empty}
++
+--
+.*Algebraic Topology by Hatcher*
+[%collapsible]
+====
+This book served as a secondary reading for my first class in algebraic topology, supplementing Munkres' Topology. As such, I have read the first chapter thoroughly, but have not read further into the chapters are homology and cohomology.
+
+This book uses certain conventions that I don't agree with, and many proofs are hand-waved away. Despite this, it still has good exposition and many theorems are stated very nicely, particularly the Van Kampen theorem.
+====
+--
+* {empty}
++
+--
+.*General Topology by Willard*
+[%collapsible]
+====
+I got this book for its discussion of nets and filters, as I was intrigued at their use in general topology. I have not read very much of this book past those sections and the few surrounding them.
+
+The sections on nets and filters are well written and provide a lot of the useful intuition around the subject, but are by no means perfect. They are useful as a supplement to a text like Munkres' Topology, which does not thoroughly cover nets or filters.
+====
+--
+* {empty}
++
+--
+.*Topology by Munkres*
+[%collapsible]
+====
+This was my primary text for my first class in general topology and my first class in algebraic topology, and so I have read almost the entirety of the book, with a few exceptions throughout.
+
+Munkres' Topology is a spectacular book for a first course in topology, either at the late undergraduate or early graduate level. The exposition is well done and the majority of the theorems are well stated.
+====
+--
 
 === Probability ===
 
@@ -621,8 +671,6 @@ Slightly lower level than the other architecture books that I own, this book foc
 
 === Distributed Systems ===
 
-* Distributed Systems by Coulouris, Dollimore, Kindberg, and Blair
-* Distributed Systems by Tanenbaum and VanSteen
 * {empty}
 +
 --
