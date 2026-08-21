@@ -1,9 +1,9 @@
 {
 	:title	"Doing Personal Research"
-	:date	"2026-03-19"
+	:date	"2026-08-20"
 	:tags	["research"]
 	:toc	false
-	:unlisted? true
+	:unlisted? false
 }
 
 Finding the motivation to learn new things or do research is often one of the toughest parts of the process, and I've struggled with it many times over. Especially as I've been doing more and more research-level mathematics, this has become a larger issue than ever before, and so I've been exploring different ways of overcoming it.
