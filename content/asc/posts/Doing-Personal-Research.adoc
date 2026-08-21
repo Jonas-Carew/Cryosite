@@ -1,0 +1,50 @@
+{
+	:title	"Doing Personal Research"
+	:date	"2026-03-19"
+	:tags	["research"]
+	:toc	false
+	:unlisted? true
+}
+
+Finding the motivation to learn new things or do research is often one of the toughest parts of the process, and I've struggled with it many times over. Especially as I've been doing more and more research-level mathematics, this has become a larger issue than ever before, and so I've been exploring different ways of overcoming it.
+
+== Learning Academic Material ==
+
+Learning new "academic" material can often be tough on your own -- of course some of it can be found in online lectures or blogposts and the like, but the vast majority of the material is found in textbooks and research papers. The problem with this is that oftentimes there are many, many books on a particular subject which vary from beautifully written masterpieces to some of the worst exposition you've ever seen. So how does one find the right book to read? Well, you have a couple of options:
+
+* Read books until you find a good one
+
+* Get recommendations from others
+
+* Participate in something with required reading
+
+Now, let's tackle these options one at a time.
+
+=== Brute Force ===
+
+Simply reading books until you find one that is actually good seems completely unreasonable -- and it is most of the time. There are two major exceptions to this: first, if you're learning a relatively niche field, it can be completely viable to go to a local library, search through their books on the subject, and read through them (or at least their beginnings) until you find one that is well written. On the other hand, if you are attempting to learn something which is very new or simply not known extensively by others, brute force could ends up being your only option.
+
+I recently participated in a Research Experience for Undergraduates, or REU, at Iowa State University, in which my group decided to attempt to combine two relatively new concepts, to create something that largely hadn't been done before. The nature of this meant that we had to read through much of the past work in both of the areas we were looking at, and since there hadn't been any major survey papers, we did this simply by brute force. Unrelated work-wise, I also happened to spend a lot of time at the library while I was in Iowa. I would go after our work day was done and pick a brand new book every day to read a smidgeon of. This gave me the other benefit of brute force: exposure. I exposed myself to many subjects that I hadn't previously thought about, all tangentially related to what I enjoy.
+
+Now, whether you are forced to or you want the exposure, reading books randomly is not only one of the hardest learning methods to motivate yourself to do, but it can actively demotivate you. Be very careful not to let yourself burn out and to take breaks if you're feeling overwhelmed with the amount of content out in the world.
+
+=== Community ===
+
+Of course, you're not the only person in existence, and with the entire internet at our fingertips there are great recommendations to spare. If I'm interested in linear algebra, simply looking up 'good linear algebra books' will give me a slew of answers. Unfortunately, these people will all be saying different things, and for every book there will be at least one person recommending it. Sorting through this mess can be time consuming, but also time saving. At the end you might end up with a couple amazing selections which will give you a thorough survey of the subject.
+
+During my time in university I had an even better option -- my peers. Having a small community of people, many of whom are above your level, can be a great resource. I have been recommended a million and one books, and I have even gone to particular people to ask their opinion on what the best book to read in my particular situation is. Unfortunately, not everyone is at university, but even for those who aren't: finding an online forum or community with more advanced learners can be a godsend.
+
+Being part of communities like these can help tremendously with motivation. I always find that I am more motivated when I am around motivated people, and I hope that I also motivate my peers to reach for ever greater heights. This positive feedback loop allows small communities to thrive and learning to flourish.
+
+=== Requirement ===
+
+This last one is much more situational -- but always remember that you have to take every opportunity given to you! There are a million situations when reading a book might be required -- a class with textbook readings, a reading group for the subject of interest, or even getting a mentor to guide you in a reading. My examples are geared much more towards university students since that is my background at the time of writing, but if you have a thought or another idea, go for it!
+
+This past year, my institution's math department started up a directed reading program for the very first time ever. I debated a lot on whether I should do it or not -- but I'm so glad I did. I ended up getting paired up with another undergraduate and a graduate mentor for the both of us, and we read through several papers on representation theory (which is some pretty cool math, at least in my opinion). At the end of the spring term, we even got to give presentations. Even further than this, the advisor of my graduate mentor became my thesis advisor, and (at the time of writing) I have been doing another directed reading over the summer.
+
+These specific opportunities allow you to opt-in to receiving external pressure to learn. You have to walk the line carefully, though -- take on too much at once and you can get burnt out or overwhelmed. Most advisors or reading groups are very understanding -- it's something that everyone has gone through (or will eventually), so don't feel embarrassed.
+
+== The Best Method Overall ==
+
+So which method is the best, or is there one? Of course there isn't -- or at least it depends on the person, the time, the place, and a million other variables. The best method is the one that helps you learn. If you wanna bury your head in library books all day, go for it. If you need peers motivating you, there is always a group for you. The main point is to just keep learning. Keep up that neuroplasticity. Take breaks when you need to, but don't give up entirely. There's always more to learn, more to do, and you can do it.
+
