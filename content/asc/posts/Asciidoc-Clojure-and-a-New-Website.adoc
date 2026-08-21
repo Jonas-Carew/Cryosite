@@ -1,7 +1,7 @@
 {
 	:title	"Asciidoc, Clojure, and a New Website"
 	:date	"2026-03-24"
-	:tags	["Asciidoc" "Clojure" "Cryogen" "Webdev"]
+	:tags	["Programming"]
 	:toc	false
 }
 
