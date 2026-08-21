@@ -22,7 +22,7 @@ Before starting the big list, note that you can find all of my dot files in link
 
 * link:https://hexchat.github.io/[HexChat] is my IRC client, and it works very well for all of my uses.
 
-* I use link::::lkjdslfkj  as my main terminal emulator, but I used link:https://wezterm.org/[WezTerm] for a long time as well. WezTerm was reliable and quick and can also do multiplexing, but I switched away since it had some configuration issues and issues with window decorations on River-based window managers. Contour has been a fast and reliable terminal emulator, although it does not do any multiplexing. Instead, I use link:https://www.tmux.info/[tmux], the most well-known multiplexer, which performs very well.
+* I use link:https://contour-terminal.org/[Contour] as my main terminal emulator, but I used link:https://wezterm.org/[WezTerm] for a long time as well. WezTerm was reliable and quick and can also do multiplexing, but I switched away since it had some configuration issues and issues with window decorations on River-based window managers. Contour has been a fast and reliable terminal emulator, although it does not do any multiplexing. Instead, I use link:https://www.tmux.info/[tmux], the most well-known multiplexer, which performs very well.
 
 ** I use link:https://www.gnu.org/software/bash/[Bash] to run most of my scripts, but I primarily use link:https://fishshell.com/[fish] for my day-to-day interactions. fish has many great features that I would recommend checking out for yourself, and scripting is dead easy.
 
