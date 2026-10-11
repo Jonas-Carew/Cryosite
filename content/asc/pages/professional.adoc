@@ -32,7 +32,9 @@ I am also still working to complete further research in temporal logic, the topi
 
 I am currently a learning assistant for integral calculus and a transitions course, where I help students understand material in a flipped classroom environment. The learning assistant program at OSU also had me attend a pedagogy course which helped develop my active teaching skills. The environment I work in means that I get time to guide students to figuring out problems themselves instead of giving them the answers, which I find to be a very satisfying process.
 
-Outside of academia, I have also been a resident assistant since my second year of undergrad (fall 2024), where I help new students living in residence halls get acquianted with our campus and find a sense of community. This is a particularly rewarding job as I get to help so many young adults find their different pathways through life, while making sure that they stay healthy and are forming connections within their communities.
+I have also been working as a lab assistant for an introductory on electronic devices such as diodes and transistors since fall 2025. My first term working on this course was the first term the course had a lab in nearly 20 years, and as such I have helped to develop and improve much of the content of the labs within the course to match the modern curriculum better. The lab primarily has the students building the components to a power supply such as a voltage rectifier, voltage regulator, and current regulator, using fundamental techniques such as feedback loops and Darlington pairs.
+
+Outside of academia, I have been a resident assistant since my second year of undergrad (fall 2024), where I help new students living in residence halls get acquianted with our campus and find a sense of community. This is a particularly rewarding job as I get to help so many young adults find their different pathways through life, while making sure that they stay healthy and are forming connections within their communities.
 
 == Past Research ==
 
@@ -46,9 +48,7 @@ In my second year of my undergrad (2024-25), I worked with Prof. Nick Marshall t
 
 == Past Work ==
 
-Most recently, I have been working as a lab TA for the first course on electronic devices such as diodes and transistors. My first term as a TA for this course was the first term the course has had a lab in nearly 20 years, and as such I have helped to develop and improve much of the content of the labs within the course to match the modern curriculum better. The lab primarily has the students building the components to a power supply such as a voltage rectifier, voltage regulator, and current regulator, using fundamental techniques such as feedback loops and Darlington pairs.
-
-In addition to this, I also previously worked as a learning assistant for vector calculus, during which I attended the previously mentioned pedagogy course. Teaching this material gave me a much better foundation for multivariable calculus than I previously had, which has been very useful, as it is a tricky subject.
+I have previously worked as a learning assistant for vector calculus, during which I attended a pedagogy course. Teaching this material gave me a much better foundation for multivariable calculus than I previously had, which has been very useful, as it is very often a tricky subject.
 
 In high school, I worked as a tech assistant, meaning I helped repair laptops that were brought in and format new laptops. This gave me invaluable technological skills that have allowed me to be consistently up-to-date with techonology and always able to troubleshoot and fix problems on the fly.
 
