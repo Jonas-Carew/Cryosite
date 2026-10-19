@@ -22,7 +22,7 @@ A PDF copy of my resume is linked below, which has much of the information above
 
 == Current Research ==
 
-This fall, and over the course of the 2026-27 school year, I will be completing both my honors thesis under Prof. Jon Kujawa. Currently, I am looking into the representation theory of Hecke algebras over the symmetric group using Hopf algebras. Much of the structure of the representation theory of the symmetric group can be carried over to a larger Hopf algebra which contains the Hecke algebra of the symmetric group, allowing us to transfer this well known structure.
+This fall, and over the course of the 2026-27 school year, I will be completing my honors thesis under Prof. Jon Kujawa. Currently, I am looking into the representation theory of Hecke algebras over the symmetric group using Hopf algebras. Much of the structure of the representation theory of the symmetric group can be carried over to a larger Hopf algebra which contains the Hecke algebra of the symmetric group, allowing us to transfer this well known structure.
 
 This year I will also be working on my (CS/ECE) capstone project under Prof. Kyle Hale. For this capstone, I am working to expand the capabilities of virtines, a concept first explored in link:https://arxiv.org/pdf/2104.11324[this] 2021 paper. We'd like to expand the support for a variety of libraries and better compile-time analysis of which libraries are needed in each virtine.
 
